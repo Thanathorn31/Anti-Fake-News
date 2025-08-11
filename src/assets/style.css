@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 8 */
+h1 {
+  @apply text-4xl mb-8; 
+}
+
+h2 {
+  @apply text-xl font-semibold; 
+}
+
+.event-link {
+  @apply no-underline text-[#2c3e50]; 
+}
