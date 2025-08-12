@@ -1,70 +1,163 @@
 {
-  "events": [
+  "news": [
     {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Kat Laydee"
+      "id": 1,
+      "topic": "NASA announces plans to grow potatoes on Mars (2015)",
+      "shortDetail": "This fake news story was based on the plot of the movie 'The Martian,' in which a stranded astronaut grows potatoes to survive on Mars.",
+      "fullDetail": "This fake news story was based on the plot of the movie 'The Martian,' in which a stranded astronaut grows potatoes to survive on Mars. The story gained traction online but was quickly debunked as a fictional plot point.",
+      "status": "fake",
+      "reporter": "Jane Doe",
+      "date": "2015-11-01T10:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1549424368-24cf2a25925e?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 150,
+        "not-fake": 20
+      },
+      "comments": [
+        {
+          "id": 1,
+          "user": "User1",
+          "comment": "This is clearly from the movie, not real.",
+          "vote": "fake",
+          "imageUrl": null,
+          "date": "2015-11-02T10:00:00Z"
+        }
+      ]
     },
     {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "petsAllowed": true,
-      "organizer": "Fern Pollin"
+      "id": 2,
+      "topic": "Man claims he can talk to dogs, starts successful pet therapy business (2019)",
+      "shortDetail": "This fake news story imagines a world where a man's ability to communicate with dogs leads to a successful career in pet therapy.",
+      "fullDetail": "This fake news story imagines a world where a man's ability to communicate with dogs leads to a successful career in pet therapy. While heartwarming, the premise is entirely fictional.",
+      "status": "fake",
+      "reporter": "John Smith",
+      "date": "2019-05-20T14:30:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 80,
+        "not-fake": 10
+      },
+      "comments": []
     },
     {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Carey Wales"
+      "id": 3,
+      "topic": "Man accidentally buys two identical lottery tickets, wins twice (2020)",
+      "shortDetail": "A man in Connecticut accidentally bought two identical lottery tickets for the same drawing, and ended up winning twice, for a total of $200,000.",
+      "fullDetail": "A man in Connecticut accidentally bought two identical lottery tickets for the same drawing, and ended up winning twice, for a total of $200,000. This is a true story that was widely reported.",
+      "status": "not-fake",
+      "reporter": "Emily White",
+      "date": "2020-03-15T09:15:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1534723452862-c94d137b6a5d?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 5,
+        "not-fake": 200
+      },
+      "comments": []
     },
     {
-      "id": 1001,
-      "category": "animal welfare",
-      "title": "Dog Adoption Day",
-      "description": "Find your new canine friend at this event.",
-      "location": "Woof Town",
-      "date": "August 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Dawg Dahd"
+      "id": 4,
+      "topic": "New app translates baby cries into words (2017)",
+      "shortDetail": "A new app is being developed that can analyze the sound of a baby's cry and translate it into a specific need or emotion.",
+      "fullDetail": "A new app is being developed that can analyze the sound of a baby's cry and translate it into a specific need or emotion. While there are some promising early stage technologies, this specific news story was an exaggeration of their capabilities and ultimately never came to market.",
+      "status": "fake",
+      "reporter": "Michael Brown",
+      "date": "2017-08-10T12:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca3924f7943?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 60,
+        "not-fake": 5
+      },
+      "comments": []
     },
     {
-      "id": 1002,
-      "category": "food",
-      "title": "Canned Food Drive",
-      "description": "Bring your canned food to donate to those in need.",
-      "location": "Tin City",
-      "date": "September 14, 2022",
-      "time": "3:00",
-      "petsAllowed": true,
-      "organizer": "Kahn Opiner"
+      "id": 5,
+      "topic": "World's most expensive coffee is from coffee beans eaten and excreted by elephants",
+      "shortDetail": "A company in Thailand produces a coffee called 'Black Ivory Coffee' where coffee cherries are fed to elephants and then collected from their waste.",
+      "fullDetail": "A company in Thailand produces a coffee called 'Black Ivory Coffee' where coffee cherries are fed to elephants and then collected from their waste. This is a real product and is considered one of the most expensive coffees in the world, similar to Kopi Luwak from civets.",
+      "status": "not-fake",
+      "reporter": "Sarah Lee",
+      "date": "2012-07-25T11:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1579782522777-a8b4b74e62a1?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 10,
+        "not-fake": 90
+      },
+      "comments": []
     },
     {
-      "id": 1003,
-      "category": "sustainability",
-      "title": "Highway Cleanup",
-      "description": "Help pick up trash along the highway.",
-      "location": "Highway 50",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Brody Kill"
+      "id": 6,
+      "topic": "Archaeologists discover ancient city made entirely of glass",
+      "shortDetail": "A team of archaeologists claims to have found a 'city of glass' dating back over 3,000 years in the Sahara Desert, but the evidence is unsubstantiated and widely regarded as a hoax.",
+      "fullDetail": "A team of archaeologists claims to have found a 'city of glass' dating back over 3,000 years in the Sahara Desert, but the evidence is unsubstantiated and widely regarded as a hoax. The story circulated online but was never confirmed by any reputable academic institutions.",
+      "status": "fake",
+      "reporter": "Alex Jones",
+      "date": "2021-04-01T08:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1577977464095-20173e449a5b?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 95,
+        "not-fake": 8
+      },
+      "comments": []
+    },
+    {
+      "id": 7,
+      "topic": "New study finds chocolate can help you lose weight",
+      "shortDetail": "A German study published a paper claiming that eating chocolate can help with weight loss, but the research was a deliberately flawed experiment designed to show how easily pseudoscience could be published.",
+      "fullDetail": "A German study published a paper claiming that eating chocolate can help with weight loss, but the research was a deliberately flawed experiment designed to show how easily pseudoscience could be published. The lead researcher later admitted the hoax to expose poor journalistic standards.",
+      "status": "fake",
+      "reporter": "Dr. John Bohannon",
+      "date": "2015-05-28T16:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1511388656113-176f5f3e4b7b?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 120,
+        "not-fake": 15
+      },
+      "comments": []
+    },
+    {
+      "id": 8,
+      "topic": "The 'Dress' debate: Is it blue and black or white and gold?",
+      "shortDetail": "A viral photo of a dress divided the internet over its perceived colors. The debate became a global phenomenon and was a real-world example of how different people perceive light and color differently.",
+      "fullDetail": "The viral photo of a dress, which appeared to be either blue and black or white and gold depending on the viewer, sparked a global debate in 2015. Scientists and neuroscientists weighed in to explain the optical illusion, confirming that the dress was, in fact, blue and black.",
+      "status": "not-fake",
+      "reporter": "Internet user",
+      "date": "2015-02-26T18:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca3924f7943?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 10,
+        "not-fake": 350
+      },
+      "comments": []
+    },
+    {
+      "id": 9,
+      "topic": "California bans all plastic straws by 2025",
+      "shortDetail": "A widely circulated story claimed California had passed a state-wide law banning all plastic straws, but the actual law only restricts full-service restaurants from providing them unless requested by a customer.",
+      "fullDetail": "A viral post stated that California had completely banned plastic straws. This was a misinterpretation of a real law (AB 1884) signed in 2018, which only prevents full-service restaurants from automatically giving out single-use plastic straws. Customers can still request them, and other businesses like fast-food restaurants are not affected.",
+      "status": "fake",
+      "reporter": "Jessica Green",
+      "date": "2018-10-01T15:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1506307133-c782782b3d1b?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 75,
+        "not-fake": 30
+      },
+      "comments": []
+    },
+    {
+      "id": 10,
+      "topic": "Giant pandas are no longer an endangered species",
+      "shortDetail": "The International Union for Conservation of Nature (IUCN) reclassified giant pandas from 'endangered' to 'vulnerable' in 2016, a genuine conservation success story.",
+      "fullDetail": "In a major conservation win, the IUCN updated the giant panda's status from 'endangered' to 'vulnerable' in 2016, acknowledging a 17% increase in their population over a decade. This was a real and positive news story that highlights the success of long-term conservation efforts.",
+      "status": "not-fake",
+      "reporter": "Conservation News",
+      "date": "2016-09-04T09:00:00Z",
+      "imageUrl": "https://images.unsplash.com/photo-1550565223-92f5db02e1c3?auto=format&fit=crop&q=80&w=1500",
+      "votes": {
+        "fake": 3,
+        "not-fake": 450
+      },
+      "comments": []
     }
   ]
 }
