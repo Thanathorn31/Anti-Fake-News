@@ -8,18 +8,10 @@ import { RouterLink, RouterView } from 'vue-router';
       <div class="container mx-auto flex justify-between items-center">
         <h1 class="text-2xl font-bold">
           <RouterLink to="/" class="text-white no-underline">
-            TruthFinder
+          Social Anti-Fake News 
           </RouterLink>
         </h1>
-        <nav>
-          <ul class="flex space-x-4">
-            <li>
-              <RouterLink to="/" class="text-white no-underline hover:underline">
-                Home
-              </RouterLink>
-            </li>
-          </ul>
-        </nav>
+
       </div>
     </header>
 
@@ -29,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router';
 
     <footer class="bg-gray-200 text-gray-600 p-4 mt-8 text-center">
       <div class="container mx-auto">
-        <p>&copy; 2024 TruthFinder. All rights reserved.</p>
+        <p>&copy; 2025 The Social Anti-Fake News System. All rights reserved.</p>
       </div>
     </footer>
   </div>
