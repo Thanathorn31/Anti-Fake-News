@@ -1,60 +1,36 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import { useMessageStore } from '@/stores/message'
-import { storeToRefs } from 'pinia';
-import { SpeedInsights } from "@vercel/speed-insights/vue"
-
-const messageStore = useMessageStore();
-
-const { message } = storeToRefs(messageStore);
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <SpeedInsights/>
-  <div class="text-center font-sans text-gray-700 antialiased">
-    <header>
-  
-        <div id="flashMessage" class="animate-fade" v-if="message">
-          <h4>{{ message }}</h4>
-        </div>
-        <h1>Deploy with Vercel T_T </h1>
-        <div class="wrapper">
-        <nav class="py-6">
-          <RouterLink :to="{ name: 'event-list-view' }" class="font-bold text-gray-700" exact-active-class="text-green-500">Event</RouterLink> |
-          <RouterLink :to="{ name: 'about' }" class="font-bold text-gray-700" exact-active-class="text-green-500">About</RouterLink> |
-          <RouterLink :to="{ name: 'students' }" class="font-bold text-gray-700" exact-active-class="text-green-500">Student</RouterLink>
+  <div id="app" class="font-sans antialiased text-gray-800 flex flex-col min-h-screen">
+    <header class="bg-[#42b983] text-white p-4 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">
+          <RouterLink to="/" class="text-white no-underline">
+            TruthFinder
+          </RouterLink>
+        </h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <RouterLink to="/" class="text-white no-underline hover:underline">
+                Home
+              </RouterLink>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
-    <RouterView />
+
+    <main class="container mx-auto mt-8 flex-grow">
+      <RouterView />
+    </main>
+
+    <footer class="bg-gray-200 text-gray-600 p-4 mt-8 text-center">
+      <div class="container mx-auto">
+        <p>&copy; 2024 TruthFinder. All rights reserved.</p>
+      </div>
+    </footer>
   </div>
 </template>
-
-<style >
-
-/*
-#layout {
- font-family: Avenir, Helvetica, Arial, sans-serif;
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-} */
-/* remove */
-/* nav {
-  padding: 30px;
-} */
-
-/* nav a {
- font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-} */
-
-/* h2 {
-  font-size: 20px;
-} */
-</style>
