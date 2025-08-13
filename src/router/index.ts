@@ -20,9 +20,24 @@ const router = createRouter({
     },
     {
       path: '/news/:id',
-      name: 'news-detail-view',
+      name: 'news-detail-view', // 👈 ใส่ชื่อให้ตรงกับที่ navigation เรียกใช้
       component: NewsDetailView,
       props: (route) => ({ id: Number(route.params.id) }),
+      children: [
+        { path: '', redirect: { name: 'news-detail-comments' } },
+        {
+          path: 'comments',
+          name: 'news-detail-comments',
+          component: () => import('@/views/NewsCommentsTab.vue'),
+          props: (r) => ({ id: Number(r.params.id) }),
+        },
+        {
+          path: 'vote',
+          name: 'news-detail-vote',
+          component: () => import('@/views/NewsVoteTab.vue'),
+          props: (r) => ({ id: Number(r.params.id) }),
+        },
+      ],
     },
   ],
   scrollBehavior: () => ({ top: 0 }),

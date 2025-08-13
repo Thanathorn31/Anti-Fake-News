@@ -1,3 +1,4 @@
+
 <script setup lang="ts">
 import NewsCard from '@/components/NewsCard.vue'
 import type { NewsItem } from '@/types'
@@ -5,19 +6,21 @@ import { ref, computed, watchEffect } from 'vue'
 import { useRouter } from 'vue-router'
 import { useNewsStore } from '@/stores/newsStore'
 
+type Filter = 'all' | 'fake' | 'not-fake'
+
 const router = useRouter()
 const store = useNewsStore()
 
 const props = defineProps<{
   page: number
   pageSize: number
-  filter?: 'all' | 'fake' | 'not-fake'
+  filter?: Filter
   q?: string
 }>()
 
 const page = computed(() => Number(props.page) || 1)
 const pageSize = computed(() => Number(props.pageSize) || 10)
-const filter = computed(() => (props.filter ?? 'all') as 'all' | 'fake' | 'not-fake')
+const filter = computed(() => (props.filter ?? 'all') as Filter)
 const searchTerm = ref(props.q ?? '')
 
 watchEffect(() => {
@@ -29,22 +32,45 @@ const totalNews = computed(() => store.total)
 const hasNextPage = computed(() => Math.ceil(totalNews.value / pageSize.value) > page.value)
 
 const pageSizeOptions = [5, 10, 15, 20]
-const filterOptions = [
-  { value: 'all', label: 'All News' },
-  { value: 'fake', label: 'Fake News' },
-  { value: 'not-fake', label: 'Not Fake News' },
+const filterOptions: { value: Filter; label: string }[] = [
+  { value: 'all', label: 'All' },
+  { value: 'fake', label: 'Fake' },
+  { value: 'not-fake', label: 'Not Fake' },
 ]
 
 function handleSearch() {
   router.push({
     name: 'news-list-view',
-    query: {
-      page: 1,
-      pageSize: pageSize.value,
-      filter: filter.value,
-      q: searchTerm.value.trim(),
-    },
+    query: { page: 1, pageSize: pageSize.value, filter: filter.value, q: searchTerm.value.trim() },
   })
+}
+
+/* segmented helpers */
+function setFilter(v: Filter) {
+  router.push({
+    name: 'news-list-view',
+    query: { page: 1, pageSize: pageSize.value, filter: v, q: searchTerm.value.trim() },
+  })
+}
+function setPageSize(v: number) {
+  router.push({
+    name: 'news-list-view',
+    query: { page: 1, pageSize: v, filter: filter.value, q: searchTerm.value.trim() },
+  })
+}
+function filterBtnClass(v: Filter) {
+  const base = 'px-4 py-1.5 rounded-full text-sm font-medium transition'
+  const inactive = 'text-slate-600 hover:bg-white/90'
+  if (filter.value !== v) return `${base} ${inactive}`
+  if (v === 'fake') return `${base} bg-red-500 text-white shadow`
+  if (v === 'not-fake') return `${base} bg-emerald-500 text-white shadow`
+  return `${base} bg-slate-800 text-white shadow` // all
+}
+function pageBtnClass(n: number) {
+  const base = 'px-3 sm:px-4 py-1.5 rounded-full text-sm font-semibold transition'
+  return pageSize.value === n
+    ? `${base} bg-emerald-500 text-white shadow`
+    : `${base} text-slate-700 hover:bg-white/90`
 }
 </script>
 
@@ -55,67 +81,54 @@ function handleSearch() {
     </h1>
     <p class="text-center text-gray-600 mb-8">Community votes and comments decide the news status.</p>
 
-    <!-- Controls -->
-    <div class="flex flex-col md:flex-row items-center justify-between mb-8 p-4 bg-gray-50 rounded-lg shadow-sm gap-4">
-      <div class="flex-1 w-full">
+    <!-- Controls bar (Search only) -->
+    <div class="mb-3 rounded-2xl bg-gray-50 p-4 shadow-sm">
+      <div class="flex gap-2">
         <input
           v-model="searchTerm"
           type="text"
-          placeholder="Search news by title or detail..."
-          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#42b983]"
+          placeholder="Search news by title or detail…"
+          class="w-full px-4 py-2 rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#42b983]"
           @keyup.enter="handleSearch"
         />
-      </div>
-
-      <div class="flex items-center gap-4 w-full md:w-auto flex-wrap">
-        <!-- Filter -->
-        <select
-          :value="filter"
-          @change="
-            $router.push({
-              name: 'news-list-view',
-              query: {
-                page: 1,
-                pageSize: pageSize,
-                filter: ($event.target as HTMLSelectElement).value,
-                q: searchTerm,
-              },
-            })
-          "
-          class="px-4 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-[#42b983] cursor-pointer"
-        >
-          <option v-for="option in filterOptions" :key="option.value" :value="option.value">
-            {{ option.label }}
-          </option>
-        </select>
-
-        <!-- Per page -->
-        <select
-          :value="pageSize"
-          @change="
-            $router.push({
-              name: 'news-list-view',
-              query: {
-                page: 1,
-                pageSize: Number(($event.target as HTMLSelectElement).value),
-                filter: filter,
-                q: searchTerm,
-              },
-            })
-          "
-          class="px-4 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-[#42b983] cursor-pointer"
-        >
-          <option v-for="size in pageSizeOptions" :key="size" :value="size">
-            {{ size }} items
-          </option>
-        </select>
-
         <button
           @click="handleSearch"
-          class="px-6 py-2 bg-[#42b983] text-white rounded-md font-medium hover:bg-[#36a374] transition-colors"
+          class="px-5 py-2 rounded-lg bg-[#42b983] text-white font-medium hover:bg-[#36a374] transition-colors"
         >
           Search
         </button>
+      </div>
+    </div>
+
+    <!-- OUTSIDE bar: left Filter / right Per page -->
+    <div class="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+      <!-- LEFT: Filter segmented -->
+      <div class="inline-flex items-center gap-1 rounded-full bg-slate-100 p-1 shadow-inner">
+        <button
+          v-for="opt in filterOptions"
+          :key="opt.value"
+          type="button"
+          :class="filterBtnClass(opt.value)"
+          @click="setFilter(opt.value)"
+        >
+          {{ opt.label }}
+        </button>
+      </div>
+
+      <!-- RIGHT: Per page segmented -->
+      <div class="flex items-center gap-3 md:justify-end">
+        <span class="text-slate-600">Per page</span>
+        <div class="inline-flex items-center gap-1 rounded-full bg-slate-100 p-1 shadow-inner">
+          <button
+            v-for="n in pageSizeOptions"
+            :key="n"
+            type="button"
+            :class="pageBtnClass(n)"
+            @click="setPageSize(n)"
+          >
+            {{ n }}
+          </button>
+        </div>
       </div>
     </div>
 
@@ -138,7 +151,7 @@ function handleSearch() {
           v-if="page > 1"
           :to="{ name: 'news-list-view', query: { page: page - 1, pageSize, filter, q: searchTerm } }"
           rel="prev"
-          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#42b983] text-white rounded-[6px] font-medium text-sm hover:bg-[#36a374]"
+          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#42b983] text-white rounded-[999px] font-medium text-sm hover:bg-[#36a374] shadow-sm"
         >
           <span>Previous</span>
         </router-link>
@@ -152,7 +165,7 @@ function handleSearch() {
           v-if="hasNextPage"
           :to="{ name: 'news-list-view', query: { page: page + 1, pageSize, filter, q: searchTerm } }"
           rel="next"
-          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#42b983] text-white rounded-[6px] font-medium text-sm hover:bg-[#36a374]"
+          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#42b983] text-white rounded-[999px] font-medium text-sm hover:bg-[#36a374] shadow-sm"
         >
           <span>Next</span>
         </router-link>
