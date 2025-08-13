@@ -24,7 +24,15 @@ const router = createRouter({
       component: NewsDetailView,
       props: (route) => ({ id: Number(route.params.id) }),
       children: [
-        { path: '', redirect: { name: 'news-detail-comments' } },
+        {
+          path: '',
+          redirect: (to) => ({
+            name: 'news-detail-comments',
+            params: to.params,
+            query: to.query,
+            hash: to.hash,
+          }),
+        },
         {
           path: 'comments',
           name: 'news-detail-comments',
@@ -40,7 +48,13 @@ const router = createRouter({
       ],
     },
   ],
-  scrollBehavior: () => ({ top: 0 }),
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition
+    if (to.hash) {
+      return { el: to.hash, behavior: 'smooth' }
+    }
+    return { top: 0, behavior: 'smooth' }
+  },
 })
 
 export default router

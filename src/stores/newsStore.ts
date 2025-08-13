@@ -25,7 +25,7 @@ export const useNewsStore = defineStore('newsStore', () => {
   const addedVotes = ref<AddedVotes>({})
   const addedComments = ref<AddedComments>({})
 
-  // hydrate (on client only)
+  // hydrate (client only)
   if (typeof window !== 'undefined') {
     try {
       const raw = localStorage.getItem(LS_KEY)
@@ -36,7 +36,7 @@ export const useNewsStore = defineStore('newsStore', () => {
         addedComments.value = parsed.comments || {}
       }
     } catch {
-      // ignore broken storage
+      /* ignore */
     }
   }
 
@@ -50,7 +50,7 @@ export const useNewsStore = defineStore('newsStore', () => {
     try {
       localStorage.setItem(LS_KEY, JSON.stringify(payload))
     } catch {
-      // quota/full
+      /* quota/full */
     }
   }
 
@@ -65,14 +65,24 @@ export const useNewsStore = defineStore('newsStore', () => {
     persist()
   }
 
-  // ---------- getters ----------
+  // ---------- getters / helpers ----------
   const getById = (id: number) => itemsById.value[id] || null
 
+  // รวมคอมเมนต์จาก local + mock และ "กันซ้ำ" ด้วย id
   function getCombinedComments(news: NewsItem): Comment[] {
-    const extra = addedComments.value[news.id] || []
-    return [...extra, ...(news.comments ?? [])]
+    const base = news.comments ?? []
+    const extra = addedComments.value[news.id] ?? []
+    const seen = new Set<number>()
+    const merged: Comment[] = []
+    for (const c of [...extra, ...base]) {
+      if (seen.has(c.id)) continue
+      seen.add(c.id)
+      merged.push(c)
+    }
+    return merged
   }
 
+  // (ยังเก็บไว้ใช้ได้) รวมจากฟิลด์ votes + addedVotes
   function getAggregatedVotes(news: NewsItem) {
     const extra = addedVotes.value[news.id]
     return {
@@ -83,6 +93,19 @@ export const useNewsStore = defineStore('newsStore', () => {
 
   function getAggregatedStatus(news: NewsItem): 'fake' | 'not-fake' {
     const v = getAggregatedVotes(news)
+    return v.fake >= v['not-fake'] ? 'fake' : 'not-fake'
+  }
+
+  // ✅ แนะนำให้ใช้ชุดนี้ใน UI: นับคะแนนจากคอมเมนต์ที่รวมแล้ว
+  function getVotesFromComments(news: NewsItem) {
+    const combined = getCombinedComments(news)
+    const fake = combined.filter(c => c.vote === 'fake').length
+    const notFake = combined.filter(c => c.vote === 'not-fake').length
+    return { fake, 'not-fake': notFake }
+  }
+
+  function getStatusFromComments(news: NewsItem): 'fake' | 'not-fake' {
+    const v = getVotesFromComments(news)
     return v.fake >= v['not-fake'] ? 'fake' : 'not-fake'
   }
 
@@ -107,22 +130,22 @@ export const useNewsStore = defineStore('newsStore', () => {
     return res.data
   }
 
+  // (ยังคงไว้ได้) เพิ่มสต็อกโหวต (UI ใหม่ไม่พึ่งค่านี้แล้ว)
   function addVote(newsId: number, vote: VoteKey) {
     const item = itemsById.value[newsId]
     if (!item) return
 
-    // instant UI: อัปเดตในหน่วยความจำ
     if (vote === 'fake') item.votes.fake += 1
     else item.votes['not-fake'] += 1
     item.status = item.votes.fake >= item.votes['not-fake'] ? 'fake' : 'not-fake'
 
-    // persist ส่วนเพิ่ม
     const v = (addedVotes.value[newsId] ||= { fake: 0, 'not-fake': 0 })
     if (vote === 'fake') v.fake += 1
     else v['not-fake'] += 1
     if (persistEnabled.value) persist()
   }
 
+  // ❗️แก้หลัก: เพิ่มคอมเมนต์ "เฉพาะ" ฝั่ง addedComments (ไม่แตะ item.comments)
   function addComment(newsId: number, payload: Omit<Comment, 'id' | 'date'>) {
     const item = itemsById.value[newsId]
     if (!item) return
@@ -131,38 +154,26 @@ export const useNewsStore = defineStore('newsStore', () => {
       date: new Date().toISOString(),
       ...payload,
     }
-    // in-memory
-    item.comments ??= []
-    item.comments.unshift(c)
-    // persist bucket
     ;(addedComments.value[newsId] ||= []).unshift(c)
     if (persistEnabled.value) persist()
   }
 
   return {
     // base
-    itemsById,
-    list,
-    total,
-    loading,
+    itemsById, list, total, loading,
 
     // persist state
-    persistEnabled,
-    addedVotes,
-    addedComments,
+    persistEnabled, addedVotes, addedComments,
 
     // getters/helpers
     getById,
     getCombinedComments,
     getAggregatedVotes,
     getAggregatedStatus,
+    getVotesFromComments,
+    getStatusFromComments,
 
     // actions
-    fetchList,
-    fetchOne,
-    addVote,
-    addComment,
-    togglePersist,
-    clearPersist,
+    fetchList, fetchOne, addVote, addComment, togglePersist, clearPersist,
   }
 })
