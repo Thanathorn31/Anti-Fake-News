@@ -36,7 +36,7 @@ export const useNewsStore = defineStore('newsStore', () => {
         addedComments.value = parsed.comments || {}
       }
     } catch {
-      /* ignore */
+      // ignore broken storage
     }
   }
 
@@ -50,7 +50,7 @@ export const useNewsStore = defineStore('newsStore', () => {
     try {
       localStorage.setItem(LS_KEY, JSON.stringify(payload))
     } catch {
-      /* quota/full */
+      // quota/full
     }
   }
 
@@ -58,31 +58,34 @@ export const useNewsStore = defineStore('newsStore', () => {
     persistEnabled.value = on
     persist()
   }
-
   function clearPersist() {
     addedVotes.value = {}
     addedComments.value = {}
     persist()
   }
 
-  // ---------- getters / helpers ----------
-  const getById = (id: number) => itemsById.value[id] || null
-
-  // รวมคอมเมนต์จาก local + mock และ "กันซ้ำ" ด้วย id
-  function getCombinedComments(news: NewsItem): Comment[] {
-    const base = news.comments ?? []
-    const extra = addedComments.value[news.id] ?? []
-    const seen = new Set<number>()
-    const merged: Comment[] = []
-    for (const c of [...extra, ...base]) {
-      if (seen.has(c.id)) continue
-      seen.add(c.id)
-      merged.push(c)
+  // ---------- helpers: keep ONE shared reference ----------
+  function upsertIntoStore(raw: NewsItem): NewsItem {
+    const existing = itemsById.value[raw.id]
+    if (existing) {
+      Object.assign(existing, raw) // mutate to keep shared reference
+      return existing
+    } else {
+      itemsById.value[raw.id] = raw
+      return raw
     }
-    return merged
   }
 
-  // (ยังเก็บไว้ใช้ได้) รวมจากฟิลด์ votes + addedVotes
+  // ---------- getters ----------
+  const getById = (id: number) => itemsById.value[id] || null
+
+  /** Base + locally added comments (newest first) */
+  function getCombinedComments(news: NewsItem): Comment[] {
+    const extra = addedComments.value[news.id] || []
+    return [...extra, ...(news.comments ?? [])]
+  }
+
+  /** Legacy aggregate (votes + addedVotes) — kept for compatibility */
   function getAggregatedVotes(news: NewsItem) {
     const extra = addedVotes.value[news.id]
     return {
@@ -90,23 +93,38 @@ export const useNewsStore = defineStore('newsStore', () => {
       'not-fake': (news.votes['not-fake'] || 0) + (extra?.['not-fake'] || 0),
     }
   }
-
   function getAggregatedStatus(news: NewsItem): 'fake' | 'not-fake' {
     const v = getAggregatedVotes(news)
     return v.fake >= v['not-fake'] ? 'fake' : 'not-fake'
   }
 
-  // ✅ แนะนำให้ใช้ชุดนี้ใน UI: นับคะแนนจากคอมเมนต์ที่รวมแล้ว
+  /** ✅ Truth from comments */
   function getVotesFromComments(news: NewsItem) {
-    const combined = getCombinedComments(news)
-    const fake = combined.filter(c => c.vote === 'fake').length
-    const notFake = combined.filter(c => c.vote === 'not-fake').length
+    const arr = getCombinedComments(news)
+    const fake = arr.filter(c => c.vote === 'fake').length
+    const notFake = arr.filter(c => c.vote === 'not-fake').length
     return { fake, 'not-fake': notFake }
   }
-
   function getStatusFromComments(news: NewsItem): 'fake' | 'not-fake' {
     const v = getVotesFromComments(news)
-    return v.fake >= v['not-fake'] ? 'fake' : 'not-fake'
+    return v.fake > v['not-fake'] ? 'fake' : 'not-fake'
+  }
+  function getDisplayStatus(news: NewsItem): 'fake' | 'not-fake' {
+    return getStatusFromComments(news)
+  }
+
+  // ---------- utils ----------
+  function getHeaderTotal(headers: unknown, fallback: number): number {
+    if (headers && typeof headers === 'object' && 'x-total-count' in (headers as Record<string, unknown>)) {
+      const raw = (headers as Record<string, unknown>)['x-total-count']
+      if (typeof raw === 'string') {
+        const n = parseInt(raw, 10)
+        if (Number.isFinite(n)) return n
+      } else if (typeof raw === 'number') {
+        return raw
+      }
+    }
+    return fallback
   }
 
   // ---------- actions ----------
@@ -114,10 +132,13 @@ export const useNewsStore = defineStore('newsStore', () => {
     loading.value = true
     try {
       const res = await NewsService.getNews(perPage, page, filter, q)
-      const data = res.data || []
-      list.value = data
-      total.value = Number((res.headers as any)?.['x-total-count'] ?? data.length ?? 0)
-      for (const n of data) itemsById.value[n.id] = n
+      const data: NewsItem[] = res.data || []
+
+      // Keep ONE shared object per id for list + detail
+      list.value = data.map(raw => upsertIntoStore(raw))
+
+      // ✅ type-safe: no any
+      total.value = getHeaderTotal(res.headers, data.length)
     } finally {
       loading.value = false
     }
@@ -126,15 +147,16 @@ export const useNewsStore = defineStore('newsStore', () => {
   async function fetchOne(id: number) {
     if (itemsById.value[id]) return itemsById.value[id]
     const res = await NewsService.getNewsById(id)
-    itemsById.value[id] = res.data
-    return res.data
+    const shared = upsertIntoStore(res.data)
+    const idx = list.value.findIndex(n => n.id === id)
+    if (idx !== -1) list.value[idx] = shared
+    return shared
   }
 
-  // (ยังคงไว้ได้) เพิ่มสต็อกโหวต (UI ใหม่ไม่พึ่งค่านี้แล้ว)
+  /** Optional cache bump; UI should read from comments anyway */
   function addVote(newsId: number, vote: VoteKey) {
     const item = itemsById.value[newsId]
     if (!item) return
-
     if (vote === 'fake') item.votes.fake += 1
     else item.votes['not-fake'] += 1
     item.status = item.votes.fake >= item.votes['not-fake'] ? 'fake' : 'not-fake'
@@ -145,25 +167,42 @@ export const useNewsStore = defineStore('newsStore', () => {
     if (persistEnabled.value) persist()
   }
 
-  // ❗️แก้หลัก: เพิ่มคอมเมนต์ "เฉพาะ" ฝั่ง addedComments (ไม่แตะ item.comments)
-  function addComment(newsId: number, payload: Omit<Comment, 'id' | 'date'>) {
+  /**
+   * Add a comment (and vote) for a news item.
+   * Returns the new comment id so caller can scroll/highlight.
+   */
+  function addComment(newsId: number, payload: Omit<Comment, 'id' | 'date'>): number {
     const item = itemsById.value[newsId]
-    if (!item) return
+    if (!item) return -1
     const c: Comment = {
       id: Date.now() + Math.floor(Math.random() * 1000),
       date: new Date().toISOString(),
       ...payload,
     }
+    item.comments ??= []
+    item.comments.unshift(c)
     ;(addedComments.value[newsId] ||= []).unshift(c)
+
+    // keep legacy votes roughly in sync
+    if (c.vote === 'fake') item.votes.fake += 1
+    else item.votes['not-fake'] += 1
+    item.status = item.votes.fake >= item.votes['not-fake'] ? 'fake' : 'not-fake'
+
     if (persistEnabled.value) persist()
+    return c.id
   }
 
   return {
     // base
-    itemsById, list, total, loading,
+    itemsById,
+    list,
+    total,
+    loading,
 
     // persist state
-    persistEnabled, addedVotes, addedComments,
+    persistEnabled,
+    addedVotes,
+    addedComments,
 
     // getters/helpers
     getById,
@@ -172,8 +211,14 @@ export const useNewsStore = defineStore('newsStore', () => {
     getAggregatedStatus,
     getVotesFromComments,
     getStatusFromComments,
+    getDisplayStatus,
 
     // actions
-    fetchList, fetchOne, addVote, addComment, togglePersist, clearPersist,
+    fetchList,
+    fetchOne,
+    addVote,
+    addComment,
+    togglePersist,
+    clearPersist,
   }
 })

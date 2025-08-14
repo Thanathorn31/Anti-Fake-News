@@ -12,26 +12,23 @@ function toDetail() {
   router.push({ name: 'news-detail-view', params: { id: props.news.id } })
 }
 
-// ✅ ใช้ “คอมเมนต์” เป็นแหล่งความจริงเดียว
-const votesFromComments = computed(() => store.getVotesFromComments(props.news))
-const statusFromComments = computed(() => store.getStatusFromComments(props.news))
+/**
+ * IMPORTANT:
+ * Even if the prop comes from the list, we re-fetch the reactive object
+ * from the store by id to ensure we always use the SAME reference that
+ * Detail uses (after fetchOne/upsert).
+ */
+const newsRef = computed<NewsItem>(() => store.getById(props.news.id) ?? props.news)
+
+// Use the same truth as Detail: comments-based status & votes
+const votes = computed(() => store.getVotesFromComments(newsRef.value))
+const status = computed<'fake' | 'not-fake'>(() => store.getStatusFromComments(newsRef.value))
 
 const statusClass = computed(() =>
-  statusFromComments.value === 'fake'
+  status.value === 'fake'
     ? 'bg-red-50 text-red-700 border border-red-200'
     : 'bg-green-50 text-green-700 border border-green-200'
 )
-
-// dd/MM/yyyy HH:mm
-function formatDMYTime(input: string) {
-  const d = new Date(input)
-  const dd = String(d.getDate()).padStart(2, '0')
-  const mm = String(d.getMonth() + 1).padStart(2, '0')
-  const yyyy = d.getFullYear()
-  const hh = String(d.getHours()).padStart(2, '0')
-  const min = String(d.getMinutes()).padStart(2, '0')
-  return `${dd}/${mm}/${yyyy} ${hh}:${min}`
-}
 </script>
 
 <template>
@@ -40,9 +37,9 @@ function formatDMYTime(input: string) {
     @click="toDetail"
   >
     <!-- Image -->
-    <div v-if="news.imageUrl" class="mb-3 -mt-2 -mx-2">
+    <div v-if="newsRef.imageUrl" class="mb-3 -mt-2 -mx-2">
       <img
-        :src="news.imageUrl"
+        :src="newsRef.imageUrl"
         alt=""
         loading="lazy"
         class="w-full h-40 object-cover rounded-md"
@@ -51,22 +48,21 @@ function formatDMYTime(input: string) {
     </div>
 
     <div class="flex justify-between items-start gap-3 mb-2">
-      <h2 class="text-xl font-bold leading-snug">{{ news.title }}</h2>
+      <h2 class="text-xl font-bold leading-snug">{{ newsRef.title }}</h2>
       <span :class="statusClass" class="text-xs font-medium px-2 py-1 rounded-full whitespace-nowrap">
-        {{ statusFromComments === 'fake' ? 'Fake' : 'Not Fake' }}
+        {{ status === 'fake' ? 'Fake' : 'Not Fake' }}
       </span>
     </div>
 
-    <p class="text-gray-700 mb-4 line-clamp-2">{{ news.summary }}</p>
+    <p class="text-gray-700 mb-4 line-clamp-2">{{ newsRef.summary }}</p>
 
     <div class="flex flex-wrap items-center justify-between text-sm text-gray-500 gap-2">
-      <span>Reporter: {{ news.reporter }}</span>
-      <span>{{ formatDMYTime(news.date) }}</span>
+      <span>Reporter: {{ newsRef.reporter }}</span>
+      <span>{{ new Date(newsRef.date).toLocaleString() }}</span>
     </div>
 
-    <!-- ✅ คะแนนโหวตจากคอมเมนต์ -->
     <div class="mt-2 text-xs text-gray-600">
-      votes: F {{ votesFromComments.fake }} / NF {{ votesFromComments['not-fake'] }}
+      votes: F {{ votes.fake }} / NF {{ votes['not-fake'] }}
     </div>
   </article>
 </template>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import NewsListView from '@/views/NewsListView.vue'
 import NewsDetailView from '@/views/NewsDetailView.vue'
+import AboutView from '@/views/AboutView.vue'
 
 type Filter = 'all' | 'fake' | 'not-fake'
 
@@ -17,6 +18,11 @@ const router = createRouter({
         filter: ((route.query.filter as Filter) || 'all') as Filter,
         q: (route.query.q as string) || '',
       }),
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: AboutView,                 
     },
     {
       path: '/news/:id',
