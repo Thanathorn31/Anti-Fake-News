@@ -3,10 +3,12 @@
 import { computed, ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useNewsStore } from '@/stores/newsStore'
+import { useMessageStore } from '@/stores/messageStore'   // ⬅️ ใช้ toast
 import type { NewsItem, VoteKey } from '@/types'
 
 const props = defineProps<{ id: number }>()
 const store = useNewsStore()
+const msg = useMessageStore() // ⬅️ toast store
 const router = useRouter()
 
 const newsItem = computed<NewsItem | null>(() => store.getById(props.id) ?? null)
@@ -37,11 +39,7 @@ const tally = computed(() => {
 
 const canSubmit = computed(() => !!vote.value && text.value.trim().length > 0)
 
-/** ---------- Button visual states ----------
- * - when selected: vivid color + ring + shadow
- * - when the *other* one is selected: turn grey (muted) so it's obvious
- * - when nothing selected yet: show their brand colors with subtle hover
- */
+/** Button visual states */
 function voteBtnClass(kind: VoteKey) {
   const base = 'px-4 py-2 rounded-md font-medium transition focus:outline-none'
   const isSelected = vote.value === kind
@@ -53,10 +51,8 @@ function voteBtnClass(kind: VoteKey) {
       : `${base} bg-green-600 text-white hover:bg-green-700 ring-2 ring-green-300 shadow`
   }
   if (hasOtherSelected) {
-    // grey out when the other button is chosen
     return `${base} bg-gray-100 text-gray-400 border border-gray-200 cursor-default`
   }
-  // nothing selected yet → show brand color outline with hover
   return kind === 'fake'
     ? `${base} text-red-700 border border-red-200 bg-red-50/40 hover:bg-red-50`
     : `${base} text-green-700 border border-emerald-200 bg-emerald-50/40 hover:bg-emerald-50`
@@ -66,20 +62,22 @@ async function submit() {
   const item = newsItem.value
   if (!item || !canSubmit.value) return
 
-  // create comment 
+  // บันทึกคอมเมนต์ (ฝั่ง local/persist ตาม store)
   store.addComment(item.id, {
-  user: name.value.trim() || 'Anonymous',
-  comment: text.value.trim(),
-  vote: vote.value as VoteKey,
-  imageUrl: imageUrl.value.trim() || null,
-})
+    user: name.value.trim() || 'Anonymous',
+    comment: text.value.trim(),
+    vote: vote.value as VoteKey,
+    imageUrl: imageUrl.value.trim() || null,
+  })
 
-  // go to comments and scroll
+  // ✅ แสดง toast ก่อนเปลี่ยนหน้า
+  msg.updateMessages('Your vote has been submitted!', 'success', 2500)
+
+  // ไปหน้า Comments (toast ยังลอยอยู่แล้วค่อยหายเอง)
   await router.push({
     name: 'news-detail-comments',
     params: { id: item.id },
     hash: '#comments-section',
-    // query: { highlight: String(newId) }, // enable if you highlight the new comment
   })
 
   // reset form

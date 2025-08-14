@@ -20,15 +20,16 @@ function goBack() {
 </script>
 
 <template>
-  <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
-    <button
-      type="button"
-      class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border text-sm hover:bg-gray-50"
-      @click="goBack"
-    >
-      ← Back
-     </button>
-  </div>
+<div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+  <button
+    type="button"
+    class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium text-white bg-[#AF0000] hover:bg-[#af0000d8] shadow-sm transition-colors"
+    @click="goBack"
+  >
+    ← Back
+  </button>
+</div>
+
   <div v-if="newsItem" class="container mx-auto p-4">
     <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
       <!-- Header -->

@@ -2,6 +2,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView, useRoute } from 'vue-router'
 import logoUrl from '@/assets/image/logo.png'
+import BaseToast from '@/components/BaseToast.vue' // ⬅️ เพิ่ม
+import { SpeedInsights } from "@vercel/speed-insights/vue"
+
+
 
 const route = useRoute()
 function navClass(name: string) {
@@ -12,14 +16,17 @@ function navClass(name: string) {
 </script>
 
 <template>
-  <div id="app" class="font-sans antialiased text-gray-800 flex flex-col min-h-screen">
+  <SpeedInsights/>
+  <div id="app" class="font-sans bg-gradient-to-b from-[#f6f6f6] via-rose-100 to-[#f9f5f2] antialiased text-gray-800 flex flex-col min-h-screen">
+
+
     <!-- NAVBAR -->
-    <header class="bg-[#42b983] text-white shadow-md">
+    <header class="bg-[#AF0000] text-white shadow-md">
       <div class="container mx-auto px-4">
         <nav class="h-14 flex items-center justify-between">
           <!-- Left: Brand -->
           <RouterLink :to="{ name: 'news-list-view' }" class="flex items-center gap-2 group">
-            <img :src="logoUrl" alt="ABC News Logo" class="h-8 w-8" />
+            <img :src="logoUrl" alt="ABC News Logo" class="h-12 w-12" />
             <span class="text-xl font-extrabold tracking-tight">ABC News</span>
           </RouterLink>
 
@@ -52,6 +59,10 @@ function navClass(name: string) {
     <main class="container mx-auto px-4 mt-8 flex-grow">
       <RouterView />
     </main>
+
+    <!-- Toast -->
+    <BaseToast /> <!-- ⬅️ วางไว้แค่จุดนี้ ครั้งเดียวทั้งโปรเจกต์ -->
+    
 
     <!-- FOOTER -->
     <footer class="bg-gray-200 text-gray-600 p-4 mt-8 text-center">

@@ -69,7 +69,7 @@ function filterBtnClass(v: Filter) {
 function pageBtnClass(n: number) {
   const base = 'px-3 sm:px-4 py-1.5 rounded-full text-sm font-semibold transition'
   return pageSize.value === n
-    ? `${base} bg-emerald-500 text-white shadow`
+    ? `${base} bg-[#AF0000] text-white shadow`
     : `${base} text-slate-700 hover:bg-white/90`
 }
 </script>
@@ -88,12 +88,12 @@ function pageBtnClass(n: number) {
           v-model="searchTerm"
           type="text"
           placeholder="Search news by title or detail…"
-          class="w-full px-4 py-2 rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#42b983]"
+          class="w-full px-4 py-2 rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#AF0000]"
           @keyup.enter="handleSearch"
         />
         <button
           @click="handleSearch"
-          class="px-5 py-2 rounded-lg bg-[#42b983] text-white font-medium hover:bg-[#36a374] transition-colors"
+          class="px-5 py-2 rounded-lg bg-[#AF0000] text-white font-medium hover:bg-[#af0000d8] transition-colors"
         >
           Search
         </button>
@@ -151,7 +151,7 @@ function pageBtnClass(n: number) {
           v-if="page > 1"
           :to="{ name: 'news-list-view', query: { page: page - 1, pageSize, filter, q: searchTerm } }"
           rel="prev"
-          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#42b983] text-white rounded-[999px] font-medium text-sm hover:bg-[#36a374] shadow-sm"
+          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#AF0000] text-white rounded-[999px] font-medium text-sm hover:bg-[#af0000d8] shadow-sm"
         >
           <span>Previous</span>
         </router-link>
@@ -165,7 +165,7 @@ function pageBtnClass(n: number) {
           v-if="hasNextPage"
           :to="{ name: 'news-list-view', query: { page: page + 1, pageSize, filter, q: searchTerm } }"
           rel="next"
-          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#42b983] text-white rounded-[999px] font-medium text-sm hover:bg-[#36a374] shadow-sm"
+          class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#AF0000] text-white rounded-[999px] font-medium text-sm hover:bg-[#af0000d8] shadow-sm"
         >
           <span>Next</span>
         </router-link>

@@ -4,6 +4,7 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { useNewsStore } from '@/stores/newsStore'
 import type { NewsItem } from '@/types'
 
+
 const props = defineProps<{ id: number }>()
 const store = useNewsStore()
 
@@ -251,20 +252,27 @@ watch([perPage, sortMode, filterVote], () => { page.value = 1 })
       </li>
     </ul>
 
-    <!-- Pagination -->
-    <div class="mt-4 flex items-center justify-center gap-3 text-sm text-gray-800">
-      <button
-        class="px-3 py-1 rounded-full hover:bg-gray-100 disabled:opacity-40"
-        :disabled="page<=1"
-        @click="page--"
-      >‹ Prev</button>
-      <span>Page {{ page }} of {{ totalPages }}</span>
-      <button
-        class="px-3 py-1 rounded-full hover:bg-gray-100 disabled:opacity-40"
-        :disabled="page>=totalPages"
-        @click="page++"
-      >Next ›</button>
-    </div>
+<!-- Pagination -->
+<div class="mt-4 flex items-center justify-center gap-3 text-sm text-gray-800">
+  <button
+    class="px-4 py-1 rounded-full bg-[#AF0000] text-white font-medium hover:bg-[#af0000d8] disabled:opacity-40 transition-colors"
+    :disabled="page<=1"
+    @click="page--"
+  >
+    ‹ Prev
+  </button>
+  
+  <span>Page {{ page }} of {{ totalPages }}</span>
+  
+  <button 
+    class="px-4 py-1 rounded-full bg-[#AF0000] text-white font-medium hover:bg-[#af0000d8] disabled:opacity-40 transition-colors"
+    :disabled="page>=totalPages"
+    @click="page++"
+  >
+    Next ›
+  </button>
+</div>
+
   </section>
 
   <div v-else class="p-6 rounded-xl border bg-white/60 text-sm text-gray-500">Loading comments…</div>
