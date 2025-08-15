@@ -1,32 +1,14 @@
-
 <script setup lang="ts">
 import NewsCard from '@/components/NewsCard.vue'
 import type { NewsItem } from '@/types'
-import { ref, computed, watchEffect, onMounted, watch } from 'vue'
+import { ref, computed, watch, onBeforeUnmount } from 'vue'
 import { useRouter } from 'vue-router'
 import { useNewsStore } from '@/stores/newsStore'
-import { useLoadingStore } from '@/stores/loadingStore'
 
 type Filter = 'all' | 'fake' | 'not-fake'
 
 const router = useRouter()
 const store = useNewsStore()
-const loading = useLoadingStore() 
-
-onMounted(async () => {
-  await store.fetchList(pageSize.value, page.value, filter.value, searchTerm.value.trim())
-  loading.hide() 
-})
-
-
-watch(
-  () => store.loading,
-  (val) => {
-    if (val === false) {
-      loading.hide()
-    }
-  }
-)
 
 const props = defineProps<{
   page: number
@@ -40,11 +22,45 @@ const pageSize = computed(() => Number(props.pageSize) || 10)
 const filter = computed(() => (props.filter ?? 'all') as Filter)
 const searchTerm = ref(props.q ?? '')
 
-watchEffect(() => {
-  store.fetchList(pageSize.value, page.value, filter.value, searchTerm.value.trim())
+// ------------------ loaders ------------------
+let debounceId: ReturnType<typeof setTimeout> | null = null
+let lastKey = ''
+
+function keyFor(pp: number, p: number, f: Filter, q: string) {
+  return `p=${p}&s=${pp}&f=${f}&q=${q}`
+}
+
+function load(pp = pageSize.value, p = page.value, f = filter.value, q = searchTerm.value.trim()) {
+  const key = keyFor(pp, p, f, q)
+  if (key === lastKey) return
+  lastKey = key
+  store.fetchList(pp, p, f, q)
+}
+
+// A) เปลี่ยนหน้า/จำนวนต่อหน้า/ฟิลเตอร์ => โหลดทันที (ไม่ debounce)
+watch(
+  () => [page.value, pageSize.value, filter.value],
+  () => load(),
+  { immediate: true }
+)
+
+// B) ค้นหา => debounce 300ms
+watch(
+  () => searchTerm.value,
+  () => {
+    if (debounceId) clearTimeout(debounceId)
+    debounceId = setTimeout(() => load(), 300)
+  }
+)
+
+onBeforeUnmount(() => {
+  if (debounceId) clearTimeout(debounceId)
 })
 
-const newsItems = computed<NewsItem[] | null>(() => (store.loading ? null : store.list))
+// SWR: แสดงของเก่าไว้ถ้า store ยังไม่เคยมีข้อมูล
+const newsItems = computed<NewsItem[]>(() => store.list ?? [])
+const hasData = computed(() => (newsItems.value?.length ?? 0) > 0)
+
 const totalNews = computed(() => store.total)
 const hasNextPage = computed(() => Math.ceil(totalNews.value / pageSize.value) > page.value)
 
@@ -58,7 +74,12 @@ const filterOptions: { value: Filter; label: string }[] = [
 function handleSearch() {
   router.push({
     name: 'news-list-view',
-    query: { page: 1, pageSize: pageSize.value, filter: filter.value, q: searchTerm.value.trim() },
+    query: {
+      page: 1,
+      pageSize: pageSize.value,
+      filter: filter.value,
+      q: searchTerm.value.trim(),
+    },
   })
 }
 
@@ -66,13 +87,23 @@ function handleSearch() {
 function setFilter(v: Filter) {
   router.push({
     name: 'news-list-view',
-    query: { page: 1, pageSize: pageSize.value, filter: v, q: searchTerm.value.trim() },
+    query: {
+      page: 1,
+      pageSize: pageSize.value,
+      filter: v,
+      q: searchTerm.value.trim(),
+    },
   })
 }
 function setPageSize(v: number) {
   router.push({
     name: 'news-list-view',
-    query: { page: 1, pageSize: v, filter: filter.value, q: searchTerm.value.trim() },
+    query: {
+      page: 1,
+      pageSize: v,
+      filter: filter.value,
+      q: searchTerm.value.trim(),
+    },
   })
 }
 function filterBtnClass(v: Filter) {
@@ -150,14 +181,19 @@ function pageBtnClass(n: number) {
     </div>
 
     <!-- List -->
-    <div v-if="newsItems && newsItems.length" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div v-if="hasData" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <NewsCard v-for="n in newsItems" :key="n.id" :news="n" />
     </div>
-    <div v-else-if="newsItems === null" class="text-center text-gray-500 text-lg mt-12">
+    <div v-else-if="store.loading" class="text-center text-gray-500 text-lg mt-12">
       <p>Loading news...</p>
     </div>
     <div v-else class="text-center text-gray-500 text-lg mt-12">
       <p>No news found with the current filters.</p>
+    </div>
+
+    <!-- แถบแจ้งกำลังอัปเดต (ไม่บังรายการ) -->
+    <div v-if="hasData && store.loading" class="mt-3 text-center text-xs text-slate-500">
+      Updating…
     </div>
 
     <!-- Pagination -->
@@ -166,7 +202,7 @@ function pageBtnClass(n: number) {
         <router-link
           id="page-prev"
           v-if="page > 1"
-          :to="{ name: 'news-list-view', query: { page: page - 1, pageSize, filter, q: searchTerm } }"
+          :to="{ name: 'news-list-view', query: { page: page - 1, pageSize: pageSize, filter: filter, q: searchTerm.trim() } }"
           rel="prev"
           class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#AF0000] text-white rounded-[999px] font-medium text-sm hover:bg-[#af0000d8] shadow-sm"
         >
@@ -180,7 +216,7 @@ function pageBtnClass(n: number) {
         <router-link
           id="page-next"
           v-if="hasNextPage"
-          :to="{ name: 'news-list-view', query: { page: page + 1, pageSize, filter, q: searchTerm } }"
+          :to="{ name: 'news-list-view', query: { page: page + 1, pageSize: pageSize, filter: filter, q: searchTerm.trim() } }"
           rel="next"
           class="inline-flex items-center gap-2 py-[10px] px-4 bg-[#AF0000] text-white rounded-[999px] font-medium text-sm hover:bg-[#af0000d8] shadow-sm"
         >
