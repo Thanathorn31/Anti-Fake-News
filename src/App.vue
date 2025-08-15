@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 import { RouterLink, RouterView, useRoute } from 'vue-router'
+// App.vue (script setup)
 import logoUrl from '@/assets/image/logo.png'
 import BaseToast from '@/components/BaseToast.vue'
 
