@@ -18,7 +18,7 @@ const videoUrl  = ''  // add your video link
   </h1>
     <!-- Logo -->
   <img
-    src="@/assets/image/logo.PNG"
+    src="@/assets/image/logo.png"
     alt="ABCnews Logo"
     class="w-40 h-40 sm:w-20 sm:h-20 object-contain"
   />
