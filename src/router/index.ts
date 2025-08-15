@@ -4,12 +4,12 @@ import NewsListView from '@/views/NewsListView.vue'
 import NewsDetailView from '@/views/NewsDetailView.vue'
 import AboutView from '@/views/AboutView.vue'
 import NProgress from 'nprogress'
-import 'nprogress/nprogress.css'   
+import 'nprogress/nprogress.css'
 import { useLoadingStore } from '@/stores/loadingStore'
 
 type Filter = 'all' | 'fake' | 'not-fake'
 
-// ปรับแต่งพฤติกรรมแท่งโหลด (เลือกได้)
+// NProgress (แถบด้านบน)
 NProgress.configure({
   showSpinner: false,
   trickleSpeed: 150,
@@ -30,11 +30,7 @@ const router = createRouter({
         q: (route.query.q as string) || '',
       }),
     },
-    {
-      path: '/about',
-      name: 'about',
-      component: AboutView,
-    },
+    { path: '/about', name: 'about', component: AboutView },
     {
       path: '/news/:id',
       name: 'news-detail-view',
@@ -72,16 +68,41 @@ const router = createRouter({
   },
 })
 
-// เริ่ม/หยุด NProgress ให้ถูกต้อง
+/** ⬇️ เพิ่มตรงนี้ */
+let firstNav = true
+let isPopNavigation = false
+// จับการนำทางแบบ back/forward
+window.addEventListener('popstate', () => {
+  isPopNavigation = true
+})
+
 router.beforeEach((to, from, next) => {
   if (to.fullPath !== from.fullPath) NProgress.start()
+
+  const loading = useLoadingStore()
+  const goingHome = to.name === 'news-list-view'
+
+  // ✅ โชว์ overlay เฉพาะ 2 เคส:
+  // 1) เปิดเว็บครั้งแรก
+  // 2) นำทางแบบ BACK แล้วกำลังกลับหน้า Home
+  if (firstNav || (isPopNavigation && goingHome)) {
+    loading.show('Loading…')
+  }
+
   next()
 })
+
 router.afterEach(() => {
   NProgress.done()
+  // ไม่ซ่อน overlay ตรงนี้ ให้หน้า NewsListView ซ่อนเองเมื่อโหลดข้อมูลเสร็จ
+  firstNav = false
+  isPopNavigation = false
 })
+
 router.onError(() => {
   NProgress.done()
+  const loading = useLoadingStore()
+  loading.hide()
 })
 
 export default router

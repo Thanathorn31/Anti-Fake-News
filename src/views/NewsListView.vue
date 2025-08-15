@@ -2,14 +2,31 @@
 <script setup lang="ts">
 import NewsCard from '@/components/NewsCard.vue'
 import type { NewsItem } from '@/types'
-import { ref, computed, watchEffect } from 'vue'
+import { ref, computed, watchEffect, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useNewsStore } from '@/stores/newsStore'
+import { useLoadingStore } from '@/stores/loadingStore'
 
 type Filter = 'all' | 'fake' | 'not-fake'
 
 const router = useRouter()
 const store = useNewsStore()
+const loading = useLoadingStore() 
+
+onMounted(async () => {
+  await store.fetchList(pageSize.value, page.value, filter.value, searchTerm.value.trim())
+  loading.hide() 
+})
+
+
+watch(
+  () => store.loading,
+  (val) => {
+    if (val === false) {
+      loading.hide()
+    }
+  }
+)
 
 const props = defineProps<{
   page: number
