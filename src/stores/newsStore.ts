@@ -13,6 +13,15 @@ interface PersistPayload {
   comments: AddedComments
 }
 
+/** 🔔 Toast types (reusable across app if imported from this store) */
+export type ToastType = 'success' | 'error' | 'info'
+export interface ToastItem {
+  id: number
+  type: ToastType
+  message: string
+  timeout: number
+}
+
 export const useNewsStore = defineStore('newsStore', () => {
   // ---------- remote/base ----------
   const itemsById = ref<Record<number, NewsItem>>({})
@@ -24,6 +33,31 @@ export const useNewsStore = defineStore('newsStore', () => {
   const persistEnabled = ref(true)
   const addedVotes = ref<AddedVotes>({})
   const addedComments = ref<AddedComments>({})
+
+  // ---------- toast (global) ----------
+  const toasts = ref<ToastItem[]>([])
+
+  function removeToast(id: number) {
+    toasts.value = toasts.value.filter(t => t.id !== id)
+  }
+  function pushToast(message: string, type: ToastType = 'info', timeout = 2500): number {
+    const id = Date.now() + Math.floor(Math.random() * 1000)
+    const item: ToastItem = { id, type, message, timeout }
+    toasts.value.push(item)
+    if (timeout > 0 && typeof window !== 'undefined') {
+      window.setTimeout(() => removeToast(id), timeout)
+    }
+    return id
+  }
+  function toastSuccess(message: string, timeout?: number) {
+    return pushToast(message, 'success', timeout ?? 2500)
+  }
+  function toastError(message: string, timeout?: number) {
+    return pushToast(message, 'error', timeout ?? 3000)
+  }
+  function toastInfo(message: string, timeout?: number) {
+    return pushToast(message, 'info', timeout ?? 2500)
+  }
 
   // hydrate (client only)
   if (typeof window !== 'undefined') {
@@ -220,5 +254,12 @@ export const useNewsStore = defineStore('newsStore', () => {
     addComment,
     togglePersist,
     clearPersist,
+
+    // 🔔 toast api (global)
+    toasts,
+    toastSuccess,
+    toastError,
+    toastInfo,
+    removeToast,
   }
 })
