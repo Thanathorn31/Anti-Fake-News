@@ -4,19 +4,36 @@ const group = [
   { name: 'Chonticha Kummayom',          sid: '662115009', sec: '702' },
   { name: 'Thanathorn Teekawong',        sid: '662115021', sec: '702' },
 ]
-const videoUrl  = ''  // 🔗 ใส่ลิงก์วิดีโอที่นี่ เช่น 'https://youtu.be/xxxx'
-const deployUrl = ''  // 🔗 ใส่ลิงก์ Deploy ที่นี่ เช่น 'https://abcnews.vercel.app'
+const videoUrl  = ''  // add your video link
 </script>
-
+ 
 <template>
   <section class="mx-auto max-w-3xl space-y-6">
+    <!-- Intro -->
     <header class="text-center">
       <h1 class="text-3xl font-extrabold text-[#2c3e50]">About ABCnews</h1>
       <p class="text-gray-600 mt-2">
         Group Name: <b>ABCnews</b>
       </p>
     </header>
-
+ 
+    <!-- Project description -->
+    <div class="rounded-2xl border bg-white p-6 shadow-sm">
+      <h2 class="text-lg font-semibold mb-3">About This Website</h2>
+      <p class="text-gray-700 leading-relaxed">
+        The Social Anti-Fake News System is a community-driven platform designed to help
+        identify and reduce the spread of fake news. Users can post news articles, and the
+        community can vote on whether the news is <span class="font-semibold text-red-600">Fake</span>
+        or <span class="font-semibold text-green-600">Not Fake</span>.  
+        Each vote can be accompanied by a comment explaining the reason, and optional evidence
+        via an image URL.  
+        The overall status of each news item is determined by the majority vote.  
+        Visitors can browse all news, filter by status, and see detailed views with comments
+        and voting history.
+      </p>
+    </div>
+ 
+    <!-- Team members -->
     <div class="rounded-2xl border bg-white p-6 shadow-sm">
       <h2 class="text-lg font-semibold mb-3">Team Members</h2>
       <ul class="divide-y">
@@ -31,7 +48,8 @@ const deployUrl = ''  // 🔗 ใส่ลิงก์ Deploy ที่นี่
         </li>
       </ul>
     </div>
-
+ 
+    <!-- Links -->
     <div class="grid sm:grid-cols-2 gap-4">
       <a
         :href="videoUrl || '#'"
@@ -49,25 +67,10 @@ const deployUrl = ''  // 🔗 ใส่ลิงก์ Deploy ที่นี่
         <span class="text-emerald-700 text-sm font-medium">Open ↗</span>
       </a>
 
-      <a
-        :href="deployUrl || '#'"
-        target="_blank" rel="noopener"
-        class="rounded-xl border p-5 bg-white shadow-sm hover:shadow transition
-               flex items-center justify-between"
-        :class="deployUrl ? 'border-emerald-200' : 'opacity-60 cursor-not-allowed'"
-      >
-        <div>
-          <h3 class="font-semibold">Deploy URL</h3>
-          <p class="text-sm text-gray-600">
-            {{ deployUrl || '— add link —' }}
-          </p>
-        </div>
-        <span class="text-emerald-700 text-sm font-medium">Open ↗</span>
-      </a>
     </div>
-
+ 
     <p class="text-sm text-gray-500">
-      This project is a community-driven anti-fake-news system built with Vue 3 + Vite.
+      This project was developed for the SE331 Component-Based Software Development course.
     </p>
   </section>
 </template>

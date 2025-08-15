@@ -5,7 +5,7 @@ export const useLoadingStore = defineStore('globalLoading', {
     active: false as boolean,
     message: 'Loading...' as string,
     _startedAt: 0,
-    _minMs: 300,
+    _minMs: 3000,
     _timer: null as number | null,
   }),
   actions: {

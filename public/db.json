@@ -16,7 +16,7 @@
       "comments": [
         {
           "id": 1001,
-          "user": "artist",
+          "user": "Uma",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -24,7 +24,7 @@
         },
         {
           "id": 1002,
-          "user": "local",
+          "user": "Finn",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/52/300/200",
@@ -32,7 +32,7 @@
         },
         {
           "id": 1003,
-          "user": "artist",
+          "user": "Yara",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -40,7 +40,7 @@
         },
         {
           "id": 1004,
-          "user": "engineer",
+          "user": "Zane",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -48,7 +48,7 @@
         },
         {
           "id": 1005,
-          "user": "guest",
+          "user": "Ella",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/55/300/200",
@@ -72,7 +72,7 @@
       "comments": [
         {
           "id": 2001,
-          "user": "local",
+          "user": "Tina",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -80,7 +80,7 @@
         },
         {
           "id": 2002,
-          "user": "gamer",
+          "user": "Mia",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -88,7 +88,7 @@
         },
         {
           "id": 2003,
-          "user": "artist",
+          "user": "Sam",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -96,7 +96,7 @@
         },
         {
           "id": 2004,
-          "user": "artist",
+          "user": "Dan",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -104,7 +104,7 @@
         },
         {
           "id": 2005,
-          "user": "teacher",
+          "user": "Kara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -128,7 +128,7 @@
       "comments": [
         {
           "id": 3001,
-          "user": "local",
+          "user": "Ivy",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -136,7 +136,7 @@
         },
         {
           "id": 3002,
-          "user": "teacher",
+          "user": "Alex",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -144,7 +144,7 @@
         },
         {
           "id": 3003,
-          "user": "traveler",
+          "user": "Vera",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/153/300/200",
@@ -152,7 +152,7 @@
         },
         {
           "id": 3004,
-          "user": "reporter",
+          "user": "Jack",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/154/300/200",
@@ -160,7 +160,7 @@
         },
         {
           "id": 3005,
-          "user": "artist",
+          "user": "Ben",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/155/300/200",
@@ -168,7 +168,7 @@
         },
         {
           "id": 3006,
-          "user": "guest",
+          "user": "Liam",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -192,7 +192,7 @@
       "comments": [
         {
           "id": 4001,
-          "user": "gamer",
+          "user": "Owen",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -200,7 +200,7 @@
         },
         {
           "id": 4002,
-          "user": "nurse",
+          "user": "Quin",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -208,7 +208,7 @@
         },
         {
           "id": 4003,
-          "user": "artist",
+          "user": "Cara",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/203/300/200",
@@ -216,7 +216,7 @@
         },
         {
           "id": 4004,
-          "user": "gamer",
+          "user": "Hugo",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -224,7 +224,7 @@
         },
         {
           "id": 4005,
-          "user": "student",
+          "user": "Gina",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -232,7 +232,7 @@
         },
         {
           "id": 4006,
-          "user": "local",
+          "user": "Xena",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/206/300/200",
@@ -256,7 +256,7 @@
       "comments": [
         {
           "id": 5001,
-          "user": "nurse",
+          "user": "Pia",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -264,7 +264,7 @@
         },
         {
           "id": 5002,
-          "user": "guest",
+          "user": "Rose",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -272,7 +272,7 @@
         },
         {
           "id": 5003,
-          "user": "traveler",
+          "user": "Will",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -280,7 +280,7 @@
         },
         {
           "id": 5004,
-          "user": "nurse",
+          "user": "Noah",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -288,7 +288,7 @@
         },
         {
           "id": 5005,
-          "user": "traveler",
+          "user": "Ivy",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -296,7 +296,7 @@
         },
         {
           "id": 5006,
-          "user": "traveler",
+          "user": "Rose",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/256/300/200",
@@ -304,7 +304,7 @@
         },
         {
           "id": 5007,
-          "user": "artist",
+          "user": "Zane",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -312,7 +312,7 @@
         },
         {
           "id": 5008,
-          "user": "local",
+          "user": "Tina",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -336,7 +336,7 @@
       "comments": [
         {
           "id": 6001,
-          "user": "nurse",
+          "user": "Hugo",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/301/300/200",
@@ -344,7 +344,7 @@
         },
         {
           "id": 6002,
-          "user": "student",
+          "user": "Alex",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -352,7 +352,7 @@
         },
         {
           "id": 6003,
-          "user": "student",
+          "user": "Noah",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -360,7 +360,7 @@
         },
         {
           "id": 6004,
-          "user": "reporter",
+          "user": "Mia",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -368,7 +368,7 @@
         },
         {
           "id": 6005,
-          "user": "teacher",
+          "user": "Vera",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -376,7 +376,7 @@
         },
         {
           "id": 6006,
-          "user": "reporter",
+          "user": "Quin",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -384,7 +384,7 @@
         },
         {
           "id": 6007,
-          "user": "artist",
+          "user": "Will",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/307/300/200",
@@ -392,7 +392,7 @@
         },
         {
           "id": 6008,
-          "user": "guest",
+          "user": "Dan",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/308/300/200",
@@ -416,7 +416,7 @@
       "comments": [
         {
           "id": 7001,
-          "user": "reporter",
+          "user": "Uma",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -424,7 +424,7 @@
         },
         {
           "id": 7002,
-          "user": "gamer",
+          "user": "Kara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -432,7 +432,7 @@
         },
         {
           "id": 7003,
-          "user": "engineer",
+          "user": "Sam",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -440,7 +440,7 @@
         },
         {
           "id": 7004,
-          "user": "teacher",
+          "user": "Jack",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -448,7 +448,7 @@
         },
         {
           "id": 7005,
-          "user": "guest",
+          "user": "Xena",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -456,7 +456,7 @@
         },
         {
           "id": 7006,
-          "user": "local",
+          "user": "Ella",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -464,7 +464,7 @@
         },
         {
           "id": 7007,
-          "user": "student",
+          "user": "Gina",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -472,7 +472,7 @@
         },
         {
           "id": 7008,
-          "user": "local",
+          "user": "Finn",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -496,7 +496,7 @@
       "comments": [
         {
           "id": 8001,
-          "user": "reporter",
+          "user": "Ben",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -504,7 +504,7 @@
         },
         {
           "id": 8002,
-          "user": "engineer",
+          "user": "Owen",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -512,7 +512,7 @@
         },
         {
           "id": 8003,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/403/300/200",
@@ -520,7 +520,7 @@
         },
         {
           "id": 8004,
-          "user": "traveler",
+          "user": "Liam",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -544,7 +544,7 @@
       "comments": [
         {
           "id": 9001,
-          "user": "artist",
+          "user": "Cara",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -552,7 +552,7 @@
         },
         {
           "id": 9002,
-          "user": "gamer",
+          "user": "Pia",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/452/300/200",
@@ -560,7 +560,7 @@
         },
         {
           "id": 9003,
-          "user": "student",
+          "user": "Gina",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -568,7 +568,7 @@
         },
         {
           "id": 9004,
-          "user": "student",
+          "user": "Hugo",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/454/300/200",
@@ -576,7 +576,7 @@
         },
         {
           "id": 9005,
-          "user": "reporter",
+          "user": "Xena",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -600,7 +600,7 @@
       "comments": [
         {
           "id": 10001,
-          "user": "gamer",
+          "user": "Ivy",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -608,7 +608,7 @@
         },
         {
           "id": 10002,
-          "user": "teacher",
+          "user": "Vera",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/502/300/200",
@@ -616,7 +616,7 @@
         },
         {
           "id": 10003,
-          "user": "traveler",
+          "user": "Mia",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/503/300/200",
@@ -624,7 +624,7 @@
         },
         {
           "id": 10004,
-          "user": "local",
+          "user": "Tina",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -632,7 +632,7 @@
         },
         {
           "id": 10005,
-          "user": "local",
+          "user": "Cara",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -640,7 +640,7 @@
         },
         {
           "id": 10006,
-          "user": "student",
+          "user": "Finn",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -648,7 +648,7 @@
         },
         {
           "id": 10007,
-          "user": "teacher",
+          "user": "Noah",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -656,7 +656,7 @@
         },
         {
           "id": 10008,
-          "user": "traveler",
+          "user": "Pia",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -680,7 +680,7 @@
       "comments": [
         {
           "id": 11001,
-          "user": "artist",
+          "user": "Will",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/551/300/200",
@@ -688,7 +688,7 @@
         },
         {
           "id": 11002,
-          "user": "teacher",
+          "user": "Sam",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -696,7 +696,7 @@
         },
         {
           "id": 11003,
-          "user": "artist",
+          "user": "Ben",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -704,7 +704,7 @@
         },
         {
           "id": 11004,
-          "user": "guest",
+          "user": "Uma",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -712,7 +712,7 @@
         },
         {
           "id": 11005,
-          "user": "guest",
+          "user": "Alex",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -720,7 +720,7 @@
         },
         {
           "id": 11006,
-          "user": "traveler",
+          "user": "Kara",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/556/300/200",
@@ -744,7 +744,7 @@
       "comments": [
         {
           "id": 12001,
-          "user": "student",
+          "user": "Quin",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/601/300/200",
@@ -752,7 +752,7 @@
         },
         {
           "id": 12002,
-          "user": "student",
+          "user": "Owen",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -760,7 +760,7 @@
         },
         {
           "id": 12003,
-          "user": "guest",
+          "user": "Jack",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -768,7 +768,7 @@
         },
         {
           "id": 12004,
-          "user": "local",
+          "user": "Liam",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/604/300/200",
@@ -776,7 +776,7 @@
         },
         {
           "id": 12005,
-          "user": "engineer",
+          "user": "Rose",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -784,7 +784,7 @@
         },
         {
           "id": 12006,
-          "user": "student",
+          "user": "Ella",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/606/300/200",
@@ -792,7 +792,7 @@
         },
         {
           "id": 12007,
-          "user": "teacher",
+          "user": "Zane",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/607/300/200",
@@ -800,7 +800,7 @@
         },
         {
           "id": 12008,
-          "user": "reporter",
+          "user": "Yara",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -824,7 +824,7 @@
       "comments": [
         {
           "id": 13001,
-          "user": "reporter",
+          "user": "Dan",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -832,7 +832,7 @@
         },
         {
           "id": 13002,
-          "user": "traveler",
+          "user": "Xena",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -840,7 +840,7 @@
         },
         {
           "id": 13003,
-          "user": "engineer",
+          "user": "Alex",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -848,7 +848,7 @@
         },
         {
           "id": 13004,
-          "user": "traveler",
+          "user": "Uma",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/654/300/200",
@@ -856,7 +856,7 @@
         },
         {
           "id": 13005,
-          "user": "artist",
+          "user": "Zane",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -864,7 +864,7 @@
         },
         {
           "id": 13006,
-          "user": "traveler",
+          "user": "Ella",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/656/300/200",
@@ -872,7 +872,7 @@
         },
         {
           "id": 13007,
-          "user": "guest",
+          "user": "Hugo",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -896,7 +896,7 @@
       "comments": [
         {
           "id": 14001,
-          "user": "engineer",
+          "user": "Ben",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -904,7 +904,7 @@
         },
         {
           "id": 14002,
-          "user": "guest",
+          "user": "Noah",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -912,7 +912,7 @@
         },
         {
           "id": 14003,
-          "user": "teacher",
+          "user": "Dan",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/703/300/200",
@@ -920,7 +920,7 @@
         },
         {
           "id": 14004,
-          "user": "traveler",
+          "user": "Tina",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/704/300/200",
@@ -928,7 +928,7 @@
         },
         {
           "id": 14005,
-          "user": "traveler",
+          "user": "Finn",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -936,7 +936,7 @@
         },
         {
           "id": 14006,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -944,7 +944,7 @@
         },
         {
           "id": 14007,
-          "user": "artist",
+          "user": "Pia",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -968,7 +968,7 @@
       "comments": [
         {
           "id": 15001,
-          "user": "nurse",
+          "user": "Rose",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -976,7 +976,7 @@
         },
         {
           "id": 15002,
-          "user": "student",
+          "user": "Owen",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -984,7 +984,7 @@
         },
         {
           "id": 15003,
-          "user": "gamer",
+          "user": "Jack",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -992,7 +992,7 @@
         },
         {
           "id": 15004,
-          "user": "reporter",
+          "user": "Gina",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -1000,7 +1000,7 @@
         },
         {
           "id": 15005,
-          "user": "guest",
+          "user": "Cara",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/755/300/200",
@@ -1008,7 +1008,7 @@
         },
         {
           "id": 15006,
-          "user": "local",
+          "user": "Vera",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -1016,7 +1016,7 @@
         },
         {
           "id": 15007,
-          "user": "reporter",
+          "user": "Kara",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1024,7 +1024,7 @@
         },
         {
           "id": 15008,
-          "user": "guest",
+          "user": "Sam",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/758/300/200",
@@ -1048,7 +1048,7 @@
       "comments": [
         {
           "id": 16001,
-          "user": "local",
+          "user": "Quin",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/801/300/200",
@@ -1056,7 +1056,7 @@
         },
         {
           "id": 16002,
-          "user": "artist",
+          "user": "Mia",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -1064,7 +1064,7 @@
         },
         {
           "id": 16003,
-          "user": "gamer",
+          "user": "Ivy",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1072,7 +1072,7 @@
         },
         {
           "id": 16004,
-          "user": "student",
+          "user": "Will",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1080,7 +1080,7 @@
         },
         {
           "id": 16005,
-          "user": "traveler",
+          "user": "Liam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1088,7 +1088,7 @@
         },
         {
           "id": 16006,
-          "user": "local",
+          "user": "Hugo",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/806/300/200",
@@ -1096,7 +1096,7 @@
         },
         {
           "id": 16007,
-          "user": "artist",
+          "user": "Jack",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -1120,7 +1120,7 @@
       "comments": [
         {
           "id": 17001,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/851/300/200",
@@ -1128,7 +1128,7 @@
         },
         {
           "id": 17002,
-          "user": "guest",
+          "user": "Ella",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -1136,7 +1136,7 @@
         },
         {
           "id": 17003,
-          "user": "gamer",
+          "user": "Owen",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1144,7 +1144,7 @@
         },
         {
           "id": 17004,
-          "user": "engineer",
+          "user": "Gina",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1152,7 +1152,7 @@
         },
         {
           "id": 17005,
-          "user": "engineer",
+          "user": "Liam",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -1160,7 +1160,7 @@
         },
         {
           "id": 17006,
-          "user": "gamer",
+          "user": "Finn",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -1168,7 +1168,7 @@
         },
         {
           "id": 17007,
-          "user": "nurse",
+          "user": "Mia",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/857/300/200",
@@ -1176,7 +1176,7 @@
         },
         {
           "id": 17008,
-          "user": "engineer",
+          "user": "Pia",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -1184,7 +1184,7 @@
         },
         {
           "id": 17009,
-          "user": "gamer",
+          "user": "Sam",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1208,7 +1208,7 @@
       "comments": [
         {
           "id": 18001,
-          "user": "nurse",
+          "user": "Cara",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/901/300/200",
@@ -1216,7 +1216,7 @@
         },
         {
           "id": 18002,
-          "user": "reporter",
+          "user": "Vera",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -1224,7 +1224,7 @@
         },
         {
           "id": 18003,
-          "user": "engineer",
+          "user": "Tina",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -1232,7 +1232,7 @@
         },
         {
           "id": 18004,
-          "user": "traveler",
+          "user": "Quin",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1256,7 +1256,7 @@
       "comments": [
         {
           "id": 19001,
-          "user": "local",
+          "user": "Uma",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1264,7 +1264,7 @@
         },
         {
           "id": 19002,
-          "user": "reporter",
+          "user": "Will",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1272,7 +1272,7 @@
         },
         {
           "id": 19003,
-          "user": "nurse",
+          "user": "Noah",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/953/300/200",
@@ -1280,7 +1280,7 @@
         },
         {
           "id": 19004,
-          "user": "traveler",
+          "user": "Xena",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/954/300/200",
@@ -1304,7 +1304,7 @@
       "comments": [
         {
           "id": 20001,
-          "user": "guest",
+          "user": "Kara",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1001/300/200",
@@ -1312,7 +1312,7 @@
         },
         {
           "id": 20002,
-          "user": "engineer",
+          "user": "Rose",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -1320,7 +1320,7 @@
         },
         {
           "id": 20003,
-          "user": "gamer",
+          "user": "Alex",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1003/300/200",
@@ -1328,7 +1328,7 @@
         },
         {
           "id": 20004,
-          "user": "gamer",
+          "user": "Zane",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -1336,7 +1336,7 @@
         },
         {
           "id": 20005,
-          "user": "guest",
+          "user": "Ivy",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1360,7 +1360,7 @@
       "comments": [
         {
           "id": 21001,
-          "user": "engineer",
+          "user": "Ben",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1051/300/200",
@@ -1368,7 +1368,7 @@
         },
         {
           "id": 21002,
-          "user": "nurse",
+          "user": "Dan",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -1376,7 +1376,7 @@
         },
         {
           "id": 21003,
-          "user": "traveler",
+          "user": "Noah",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -1384,7 +1384,7 @@
         },
         {
           "id": 21004,
-          "user": "gamer",
+          "user": "Jack",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1392,7 +1392,7 @@
         },
         {
           "id": 21005,
-          "user": "local",
+          "user": "Tina",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1055/300/200",
@@ -1400,7 +1400,7 @@
         },
         {
           "id": 21006,
-          "user": "nurse",
+          "user": "Dan",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1056/300/200",
@@ -1408,7 +1408,7 @@
         },
         {
           "id": 21007,
-          "user": "teacher",
+          "user": "Vera",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -1416,7 +1416,7 @@
         },
         {
           "id": 21008,
-          "user": "traveler",
+          "user": "Cara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1440,7 +1440,7 @@
       "comments": [
         {
           "id": 22001,
-          "user": "local",
+          "user": "Gina",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -1448,7 +1448,7 @@
         },
         {
           "id": 22002,
-          "user": "reporter",
+          "user": "Yara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1456,7 +1456,7 @@
         },
         {
           "id": 22003,
-          "user": "guest",
+          "user": "Hugo",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1464,7 +1464,7 @@
         },
         {
           "id": 22004,
-          "user": "reporter",
+          "user": "Quin",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -1472,7 +1472,7 @@
         },
         {
           "id": 22005,
-          "user": "artist",
+          "user": "Uma",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1480,7 +1480,7 @@
         },
         {
           "id": 22006,
-          "user": "teacher",
+          "user": "Liam",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1488,7 +1488,7 @@
         },
         {
           "id": 22007,
-          "user": "traveler",
+          "user": "Ella",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1107/300/200",
@@ -1496,7 +1496,7 @@
         },
         {
           "id": 22008,
-          "user": "local",
+          "user": "Mia",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1108/300/200",
@@ -1520,7 +1520,7 @@
       "comments": [
         {
           "id": 23001,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -1528,7 +1528,7 @@
         },
         {
           "id": 23002,
-          "user": "traveler",
+          "user": "Owen",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1536,7 +1536,7 @@
         },
         {
           "id": 23003,
-          "user": "artist",
+          "user": "Ben",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -1544,7 +1544,7 @@
         },
         {
           "id": 23004,
-          "user": "artist",
+          "user": "Ivy",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -1552,7 +1552,7 @@
         },
         {
           "id": 23005,
-          "user": "nurse",
+          "user": "Alex",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1155/300/200",
@@ -1560,7 +1560,7 @@
         },
         {
           "id": 23006,
-          "user": "nurse",
+          "user": "Kara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1584,7 +1584,7 @@
       "comments": [
         {
           "id": 24001,
-          "user": "local",
+          "user": "Zane",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1592,7 +1592,7 @@
         },
         {
           "id": 24002,
-          "user": "guest",
+          "user": "Sam",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1600,7 +1600,7 @@
         },
         {
           "id": 24003,
-          "user": "traveler",
+          "user": "Xena",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -1608,7 +1608,7 @@
         },
         {
           "id": 24004,
-          "user": "engineer",
+          "user": "Finn",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1204/300/200",
@@ -1616,7 +1616,7 @@
         },
         {
           "id": 24005,
-          "user": "nurse",
+          "user": "Pia",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1624,7 +1624,7 @@
         },
         {
           "id": 24006,
-          "user": "traveler",
+          "user": "Will",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1648,7 +1648,7 @@
       "comments": [
         {
           "id": 25001,
-          "user": "student",
+          "user": "Jack",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1251/300/200",
@@ -1656,7 +1656,7 @@
         },
         {
           "id": 25002,
-          "user": "gamer",
+          "user": "Gina",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -1664,7 +1664,7 @@
         },
         {
           "id": 25003,
-          "user": "traveler",
+          "user": "Kara",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1253/300/200",
@@ -1672,7 +1672,7 @@
         },
         {
           "id": 25004,
-          "user": "traveler",
+          "user": "Owen",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1254/300/200",
@@ -1680,7 +1680,7 @@
         },
         {
           "id": 25005,
-          "user": "student",
+          "user": "Pia",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -1688,7 +1688,7 @@
         },
         {
           "id": 25006,
-          "user": "student",
+          "user": "Ivy",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1256/300/200",
@@ -1712,7 +1712,7 @@
       "comments": [
         {
           "id": 26001,
-          "user": "traveler",
+          "user": "Noah",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -1720,7 +1720,7 @@
         },
         {
           "id": 26002,
-          "user": "engineer",
+          "user": "Rose",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1728,7 +1728,7 @@
         },
         {
           "id": 26003,
-          "user": "reporter",
+          "user": "Tina",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1303/300/200",
@@ -1736,7 +1736,7 @@
         },
         {
           "id": 26004,
-          "user": "traveler",
+          "user": "Alex",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1744,7 +1744,7 @@
         },
         {
           "id": 26005,
-          "user": "artist",
+          "user": "Liam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1305/300/200",
@@ -1752,7 +1752,7 @@
         },
         {
           "id": 26006,
-          "user": "gamer",
+          "user": "Dan",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1306/300/200",
@@ -1760,7 +1760,7 @@
         },
         {
           "id": 26007,
-          "user": "local",
+          "user": "Yara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1768,7 +1768,7 @@
         },
         {
           "id": 26008,
-          "user": "local",
+          "user": "Hugo",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -1776,7 +1776,7 @@
         },
         {
           "id": 26009,
-          "user": "traveler",
+          "user": "Xena",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -1800,7 +1800,7 @@
       "comments": [
         {
           "id": 27001,
-          "user": "engineer",
+          "user": "Cara",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -1808,7 +1808,7 @@
         },
         {
           "id": 27002,
-          "user": "engineer",
+          "user": "Finn",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1816,7 +1816,7 @@
         },
         {
           "id": 27003,
-          "user": "nurse",
+          "user": "Quin",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -1824,7 +1824,7 @@
         },
         {
           "id": 27004,
-          "user": "artist",
+          "user": "Vera",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1354/300/200",
@@ -1832,7 +1832,7 @@
         },
         {
           "id": 27005,
-          "user": "nurse",
+          "user": "Will",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1840,7 +1840,7 @@
         },
         {
           "id": 27006,
-          "user": "reporter",
+          "user": "Mia",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -1864,7 +1864,7 @@
       "comments": [
         {
           "id": 28001,
-          "user": "local",
+          "user": "Uma",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -1872,7 +1872,7 @@
         },
         {
           "id": 28002,
-          "user": "student",
+          "user": "Ben",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1880,7 +1880,7 @@
         },
         {
           "id": 28003,
-          "user": "traveler",
+          "user": "Ella",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1403/300/200",
@@ -1888,7 +1888,7 @@
         },
         {
           "id": 28004,
-          "user": "reporter",
+          "user": "Sam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1896,7 +1896,7 @@
         },
         {
           "id": 28005,
-          "user": "gamer",
+          "user": "Zane",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1904,7 +1904,7 @@
         },
         {
           "id": 28006,
-          "user": "engineer",
+          "user": "Finn",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1406/300/200",
@@ -1912,7 +1912,7 @@
         },
         {
           "id": 28007,
-          "user": "guest",
+          "user": "Ella",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1936,7 +1936,7 @@
       "comments": [
         {
           "id": 29001,
-          "user": "teacher",
+          "user": "Owen",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1944,7 +1944,7 @@
         },
         {
           "id": 29002,
-          "user": "reporter",
+          "user": "Zane",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1952,7 +1952,7 @@
         },
         {
           "id": 29003,
-          "user": "engineer",
+          "user": "Ivy",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1453/300/200",
@@ -1960,7 +1960,7 @@
         },
         {
           "id": 29004,
-          "user": "engineer",
+          "user": "Hugo",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -1968,7 +1968,7 @@
         },
         {
           "id": 29005,
-          "user": "student",
+          "user": "Sam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -1992,7 +1992,7 @@
       "comments": [
         {
           "id": 30001,
-          "user": "artist",
+          "user": "Gina",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2000,7 +2000,7 @@
         },
         {
           "id": 30002,
-          "user": "student",
+          "user": "Vera",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1502/300/200",
@@ -2008,7 +2008,7 @@
         },
         {
           "id": 30003,
-          "user": "teacher",
+          "user": "Quin",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -2016,7 +2016,7 @@
         },
         {
           "id": 30004,
-          "user": "artist",
+          "user": "Alex",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -2040,7 +2040,7 @@
       "comments": [
         {
           "id": 31001,
-          "user": "traveler",
+          "user": "Uma",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1551/300/200",
@@ -2048,7 +2048,7 @@
         },
         {
           "id": 31002,
-          "user": "local",
+          "user": "Cara",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2056,7 +2056,7 @@
         },
         {
           "id": 31003,
-          "user": "guest",
+          "user": "Pia",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2064,7 +2064,7 @@
         },
         {
           "id": 31004,
-          "user": "teacher",
+          "user": "Jack",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1554/300/200",
@@ -2072,7 +2072,7 @@
         },
         {
           "id": 31005,
-          "user": "engineer",
+          "user": "Ben",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1555/300/200",
@@ -2080,7 +2080,7 @@
         },
         {
           "id": 31006,
-          "user": "engineer",
+          "user": "Will",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1556/300/200",
@@ -2088,7 +2088,7 @@
         },
         {
           "id": 31007,
-          "user": "reporter",
+          "user": "Dan",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2096,7 +2096,7 @@
         },
         {
           "id": 31008,
-          "user": "guest",
+          "user": "Xena",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2120,7 +2120,7 @@
       "comments": [
         {
           "id": 32001,
-          "user": "gamer",
+          "user": "Kara",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2128,7 +2128,7 @@
         },
         {
           "id": 32002,
-          "user": "traveler",
+          "user": "Mia",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2136,7 +2136,7 @@
         },
         {
           "id": 32003,
-          "user": "engineer",
+          "user": "Liam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1603/300/200",
@@ -2144,7 +2144,7 @@
         },
         {
           "id": 32004,
-          "user": "teacher",
+          "user": "Noah",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -2168,7 +2168,7 @@
       "comments": [
         {
           "id": 33001,
-          "user": "guest",
+          "user": "Tina",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -2176,7 +2176,7 @@
         },
         {
           "id": 33002,
-          "user": "reporter",
+          "user": "Rose",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2184,7 +2184,7 @@
         },
         {
           "id": 33003,
-          "user": "traveler",
+          "user": "Yara",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1653/300/200",
@@ -2192,7 +2192,7 @@
         },
         {
           "id": 33004,
-          "user": "guest",
+          "user": "Uma",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2200,7 +2200,7 @@
         },
         {
           "id": 33005,
-          "user": "teacher",
+          "user": "Tina",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1655/300/200",
@@ -2208,7 +2208,7 @@
         },
         {
           "id": 33006,
-          "user": "engineer",
+          "user": "Ella",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1656/300/200",
@@ -2232,7 +2232,7 @@
       "comments": [
         {
           "id": 34001,
-          "user": "student",
+          "user": "Mia",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -2240,7 +2240,7 @@
         },
         {
           "id": 34002,
-          "user": "traveler",
+          "user": "Rose",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -2248,7 +2248,7 @@
         },
         {
           "id": 34003,
-          "user": "local",
+          "user": "Yara",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -2256,7 +2256,7 @@
         },
         {
           "id": 34004,
-          "user": "engineer",
+          "user": "Owen",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1704/300/200",
@@ -2264,7 +2264,7 @@
         },
         {
           "id": 34005,
-          "user": "traveler",
+          "user": "Pia",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -2272,7 +2272,7 @@
         },
         {
           "id": 34006,
-          "user": "traveler",
+          "user": "Jack",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -2296,7 +2296,7 @@
       "comments": [
         {
           "id": 35001,
-          "user": "artist",
+          "user": "Kara",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -2304,7 +2304,7 @@
         },
         {
           "id": 35002,
-          "user": "local",
+          "user": "Dan",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1752/300/200",
@@ -2312,7 +2312,7 @@
         },
         {
           "id": 35003,
-          "user": "engineer",
+          "user": "Ivy",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2320,7 +2320,7 @@
         },
         {
           "id": 35004,
-          "user": "traveler",
+          "user": "Will",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -2328,7 +2328,7 @@
         },
         {
           "id": 35005,
-          "user": "artist",
+          "user": "Hugo",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1755/300/200",
@@ -2336,7 +2336,7 @@
         },
         {
           "id": 35006,
-          "user": "artist",
+          "user": "Vera",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2344,7 +2344,7 @@
         },
         {
           "id": 35007,
-          "user": "engineer",
+          "user": "Xena",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2368,7 +2368,7 @@
       "comments": [
         {
           "id": 36001,
-          "user": "nurse",
+          "user": "Cara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1801/300/200",
@@ -2376,7 +2376,7 @@
         },
         {
           "id": 36002,
-          "user": "teacher",
+          "user": "Liam",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1802/300/200",
@@ -2384,7 +2384,7 @@
         },
         {
           "id": 36003,
-          "user": "local",
+          "user": "Gina",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1803/300/200",
@@ -2392,7 +2392,7 @@
         },
         {
           "id": 36004,
-          "user": "gamer",
+          "user": "Ben",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1804/300/200",
@@ -2416,7 +2416,7 @@
       "comments": [
         {
           "id": 37001,
-          "user": "artist",
+          "user": "Zane",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1851/300/200",
@@ -2424,7 +2424,7 @@
         },
         {
           "id": 37002,
-          "user": "reporter",
+          "user": "Noah",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2432,7 +2432,7 @@
         },
         {
           "id": 37003,
-          "user": "gamer",
+          "user": "Sam",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2440,7 +2440,7 @@
         },
         {
           "id": 37004,
-          "user": "student",
+          "user": "Finn",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -2448,7 +2448,7 @@
         },
         {
           "id": 37005,
-          "user": "guest",
+          "user": "Quin",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/1855/300/200",
@@ -2472,7 +2472,7 @@
       "comments": [
         {
           "id": 38001,
-          "user": "guest",
+          "user": "Alex",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1901/300/200",
@@ -2480,7 +2480,7 @@
         },
         {
           "id": 38002,
-          "user": "local",
+          "user": "Will",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2488,7 +2488,7 @@
         },
         {
           "id": 38003,
-          "user": "gamer",
+          "user": "Vera",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -2496,7 +2496,7 @@
         },
         {
           "id": 38004,
-          "user": "gamer",
+          "user": "Yara",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1904/300/200",
@@ -2504,7 +2504,7 @@
         },
         {
           "id": 38005,
-          "user": "artist",
+          "user": "Mia",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2512,7 +2512,7 @@
         },
         {
           "id": 38006,
-          "user": "guest",
+          "user": "Ben",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -2520,7 +2520,7 @@
         },
         {
           "id": 38007,
-          "user": "local",
+          "user": "Cara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2528,7 +2528,7 @@
         },
         {
           "id": 38008,
-          "user": "local",
+          "user": "Liam",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2552,7 +2552,7 @@
       "comments": [
         {
           "id": 39001,
-          "user": "teacher",
+          "user": "Ella",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -2560,7 +2560,7 @@
         },
         {
           "id": 39002,
-          "user": "nurse",
+          "user": "Gina",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2568,7 +2568,7 @@
         },
         {
           "id": 39003,
-          "user": "artist",
+          "user": "Noah",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -2576,7 +2576,7 @@
         },
         {
           "id": 39004,
-          "user": "engineer",
+          "user": "Zane",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -2584,7 +2584,7 @@
         },
         {
           "id": 39005,
-          "user": "local",
+          "user": "Kara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2592,7 +2592,7 @@
         },
         {
           "id": 39006,
-          "user": "teacher",
+          "user": "Jack",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -2600,7 +2600,7 @@
         },
         {
           "id": 39007,
-          "user": "local",
+          "user": "Quin",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -2608,7 +2608,7 @@
         },
         {
           "id": 39008,
-          "user": "teacher",
+          "user": "Uma",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/1958/300/200",
@@ -2632,7 +2632,7 @@
       "comments": [
         {
           "id": 40001,
-          "user": "engineer",
+          "user": "Rose",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2640,7 +2640,7 @@
         },
         {
           "id": 40002,
-          "user": "teacher",
+          "user": "Pia",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2648,7 +2648,7 @@
         },
         {
           "id": 40003,
-          "user": "nurse",
+          "user": "Tina",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2003/300/200",
@@ -2656,7 +2656,7 @@
         },
         {
           "id": 40004,
-          "user": "artist",
+          "user": "Hugo",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2664,7 +2664,7 @@
         },
         {
           "id": 40005,
-          "user": "reporter",
+          "user": "Sam",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2005/300/200",
@@ -2672,7 +2672,7 @@
         },
         {
           "id": 40006,
-          "user": "gamer",
+          "user": "Ivy",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2696,7 +2696,7 @@
       "comments": [
         {
           "id": 41001,
-          "user": "teacher",
+          "user": "Owen",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2704,7 +2704,7 @@
         },
         {
           "id": 41002,
-          "user": "engineer",
+          "user": "Dan",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2052/300/200",
@@ -2712,7 +2712,7 @@
         },
         {
           "id": 41003,
-          "user": "guest",
+          "user": "Xena",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -2720,7 +2720,7 @@
         },
         {
           "id": 41004,
-          "user": "engineer",
+          "user": "Finn",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2054/300/200",
@@ -2728,7 +2728,7 @@
         },
         {
           "id": 41005,
-          "user": "teacher",
+          "user": "Alex",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2736,7 +2736,7 @@
         },
         {
           "id": 41006,
-          "user": "gamer",
+          "user": "Noah",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2056/300/200",
@@ -2744,7 +2744,7 @@
         },
         {
           "id": 41007,
-          "user": "engineer",
+          "user": "Vera",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2057/300/200",
@@ -2752,7 +2752,7 @@
         },
         {
           "id": 41008,
-          "user": "reporter",
+          "user": "Mia",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2760,7 +2760,7 @@
         },
         {
           "id": 41009,
-          "user": "gamer",
+          "user": "Liam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2059/300/200",
@@ -2784,7 +2784,7 @@
       "comments": [
         {
           "id": 42001,
-          "user": "reporter",
+          "user": "Pia",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2101/300/200",
@@ -2792,7 +2792,7 @@
         },
         {
           "id": 42002,
-          "user": "local",
+          "user": "Dan",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2102/300/200",
@@ -2800,7 +2800,7 @@
         },
         {
           "id": 42003,
-          "user": "student",
+          "user": "Ben",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2808,7 +2808,7 @@
         },
         {
           "id": 42004,
-          "user": "artist",
+          "user": "Will",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2104/300/200",
@@ -2816,7 +2816,7 @@
         },
         {
           "id": 42005,
-          "user": "guest",
+          "user": "Jack",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -2824,7 +2824,7 @@
         },
         {
           "id": 42006,
-          "user": "teacher",
+          "user": "Quin",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -2832,7 +2832,7 @@
         },
         {
           "id": 42007,
-          "user": "engineer",
+          "user": "Ella",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2840,7 +2840,7 @@
         },
         {
           "id": 42008,
-          "user": "teacher",
+          "user": "Xena",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2108/300/200",
@@ -2864,7 +2864,7 @@
       "comments": [
         {
           "id": 43001,
-          "user": "gamer",
+          "user": "Hugo",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2151/300/200",
@@ -2872,7 +2872,7 @@
         },
         {
           "id": 43002,
-          "user": "traveler",
+          "user": "Finn",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2880,7 +2880,7 @@
         },
         {
           "id": 43003,
-          "user": "local",
+          "user": "Yara",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -2888,7 +2888,7 @@
         },
         {
           "id": 43004,
-          "user": "teacher",
+          "user": "Kara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2154/300/200",
@@ -2896,7 +2896,7 @@
         },
         {
           "id": 43005,
-          "user": "student",
+          "user": "Cara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2904,7 +2904,7 @@
         },
         {
           "id": 43006,
-          "user": "student",
+          "user": "Uma",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2156/300/200",
@@ -2912,7 +2912,7 @@
         },
         {
           "id": 43007,
-          "user": "student",
+          "user": "Sam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2936,7 +2936,7 @@
       "comments": [
         {
           "id": 44001,
-          "user": "gamer",
+          "user": "Alex",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2944,7 +2944,7 @@
         },
         {
           "id": 44002,
-          "user": "student",
+          "user": "Gina",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2952,7 +2952,7 @@
         },
         {
           "id": 44003,
-          "user": "traveler",
+          "user": "Zane",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -2960,7 +2960,7 @@
         },
         {
           "id": 44004,
-          "user": "local",
+          "user": "Owen",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2968,7 +2968,7 @@
         },
         {
           "id": 44005,
-          "user": "teacher",
+          "user": "Ivy",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2205/300/200",
@@ -2976,7 +2976,7 @@
         },
         {
           "id": 44006,
-          "user": "local",
+          "user": "Tina",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -2984,7 +2984,7 @@
         },
         {
           "id": 44007,
-          "user": "guest",
+          "user": "Rose",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -2992,7 +2992,7 @@
         },
         {
           "id": 44008,
-          "user": "reporter",
+          "user": "Owen",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3000,7 +3000,7 @@
         },
         {
           "id": 44009,
-          "user": "guest",
+          "user": "Kara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3024,7 +3024,7 @@
       "comments": [
         {
           "id": 45001,
-          "user": "nurse",
+          "user": "Dan",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2251/300/200",
@@ -3032,7 +3032,7 @@
         },
         {
           "id": 45002,
-          "user": "teacher",
+          "user": "Sam",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -3040,7 +3040,7 @@
         },
         {
           "id": 45003,
-          "user": "teacher",
+          "user": "Liam",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3048,7 +3048,7 @@
         },
         {
           "id": 45004,
-          "user": "local",
+          "user": "Alex",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3056,7 +3056,7 @@
         },
         {
           "id": 45005,
-          "user": "traveler",
+          "user": "Zane",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -3064,7 +3064,7 @@
         },
         {
           "id": 45006,
-          "user": "gamer",
+          "user": "Jack",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3072,7 +3072,7 @@
         },
         {
           "id": 45007,
-          "user": "student",
+          "user": "Tina",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -3080,7 +3080,7 @@
         },
         {
           "id": 45008,
-          "user": "engineer",
+          "user": "Hugo",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -3104,7 +3104,7 @@
       "comments": [
         {
           "id": 46001,
-          "user": "artist",
+          "user": "Ivy",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3112,7 +3112,7 @@
         },
         {
           "id": 46002,
-          "user": "teacher",
+          "user": "Uma",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -3120,7 +3120,7 @@
         },
         {
           "id": 46003,
-          "user": "reporter",
+          "user": "Finn",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2303/300/200",
@@ -3128,7 +3128,7 @@
         },
         {
           "id": 46004,
-          "user": "reporter",
+          "user": "Ella",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3136,7 +3136,7 @@
         },
         {
           "id": 46005,
-          "user": "local",
+          "user": "Quin",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2305/300/200",
@@ -3144,7 +3144,7 @@
         },
         {
           "id": 46006,
-          "user": "gamer",
+          "user": "Vera",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -3152,7 +3152,7 @@
         },
         {
           "id": 46007,
-          "user": "student",
+          "user": "Xena",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2307/300/200",
@@ -3160,7 +3160,7 @@
         },
         {
           "id": 46008,
-          "user": "teacher",
+          "user": "Yara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2308/300/200",
@@ -3168,7 +3168,7 @@
         },
         {
           "id": 46009,
-          "user": "nurse",
+          "user": "Cara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3192,7 +3192,7 @@
       "comments": [
         {
           "id": 47001,
-          "user": "nurse",
+          "user": "Ben",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -3200,7 +3200,7 @@
         },
         {
           "id": 47002,
-          "user": "artist",
+          "user": "Noah",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -3208,7 +3208,7 @@
         },
         {
           "id": 47003,
-          "user": "gamer",
+          "user": "Rose",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3216,7 +3216,7 @@
         },
         {
           "id": 47004,
-          "user": "nurse",
+          "user": "Mia",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2354/300/200",
@@ -3224,7 +3224,7 @@
         },
         {
           "id": 47005,
-          "user": "artist",
+          "user": "Will",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2355/300/200",
@@ -3248,7 +3248,7 @@
       "comments": [
         {
           "id": 48001,
-          "user": "engineer",
+          "user": "Gina",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3256,7 +3256,7 @@
         },
         {
           "id": 48002,
-          "user": "nurse",
+          "user": "Pia",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2402/300/200",
@@ -3264,7 +3264,7 @@
         },
         {
           "id": 48003,
-          "user": "engineer",
+          "user": "Kara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3272,7 +3272,7 @@
         },
         {
           "id": 48004,
-          "user": "teacher",
+          "user": "Jack",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3280,7 +3280,7 @@
         },
         {
           "id": 48005,
-          "user": "teacher",
+          "user": "Finn",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -3288,7 +3288,7 @@
         },
         {
           "id": 48006,
-          "user": "nurse",
+          "user": "Uma",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2406/300/200",
@@ -3312,7 +3312,7 @@
       "comments": [
         {
           "id": 49001,
-          "user": "student",
+          "user": "Noah",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2451/300/200",
@@ -3320,7 +3320,7 @@
         },
         {
           "id": 49002,
-          "user": "traveler",
+          "user": "Dan",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2452/300/200",
@@ -3328,7 +3328,7 @@
         },
         {
           "id": 49003,
-          "user": "gamer",
+          "user": "Will",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -3336,7 +3336,7 @@
         },
         {
           "id": 49004,
-          "user": "nurse",
+          "user": "Zane",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -3360,7 +3360,7 @@
       "comments": [
         {
           "id": 50001,
-          "user": "gamer",
+          "user": "Ivy",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -3368,7 +3368,7 @@
         },
         {
           "id": 50002,
-          "user": "artist",
+          "user": "Ben",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -3376,7 +3376,7 @@
         },
         {
           "id": 50003,
-          "user": "artist",
+          "user": "Vera",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -3384,7 +3384,7 @@
         },
         {
           "id": 50004,
-          "user": "engineer",
+          "user": "Tina",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -3392,7 +3392,7 @@
         },
         {
           "id": 50005,
-          "user": "local",
+          "user": "Gina",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2505/300/200",
@@ -3400,7 +3400,7 @@
         },
         {
           "id": 50006,
-          "user": "local",
+          "user": "Quin",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -3408,7 +3408,7 @@
         },
         {
           "id": 50007,
-          "user": "teacher",
+          "user": "Pia",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -3432,7 +3432,7 @@
       "comments": [
         {
           "id": 51001,
-          "user": "nurse",
+          "user": "Liam",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -3440,7 +3440,7 @@
         },
         {
           "id": 51002,
-          "user": "reporter",
+          "user": "Mia",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2552/300/200",
@@ -3448,7 +3448,7 @@
         },
         {
           "id": 51003,
-          "user": "engineer",
+          "user": "Cara",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -3456,7 +3456,7 @@
         },
         {
           "id": 51004,
-          "user": "reporter",
+          "user": "Sam",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -3464,7 +3464,7 @@
         },
         {
           "id": 51005,
-          "user": "teacher",
+          "user": "Alex",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -3488,7 +3488,7 @@
       "comments": [
         {
           "id": 52001,
-          "user": "engineer",
+          "user": "Ella",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3496,7 +3496,7 @@
         },
         {
           "id": 52002,
-          "user": "nurse",
+          "user": "Rose",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3504,7 +3504,7 @@
         },
         {
           "id": 52003,
-          "user": "local",
+          "user": "Xena",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3512,7 +3512,7 @@
         },
         {
           "id": 52004,
-          "user": "student",
+          "user": "Owen",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -3520,7 +3520,7 @@
         },
         {
           "id": 52005,
-          "user": "traveler",
+          "user": "Hugo",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2605/300/200",
@@ -3528,7 +3528,7 @@
         },
         {
           "id": 52006,
-          "user": "student",
+          "user": "Yara",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -3536,7 +3536,7 @@
         },
         {
           "id": 52007,
-          "user": "teacher",
+          "user": "Pia",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2607/300/200",
@@ -3560,7 +3560,7 @@
       "comments": [
         {
           "id": 53001,
-          "user": "artist",
+          "user": "Dan",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3568,7 +3568,7 @@
         },
         {
           "id": 53002,
-          "user": "gamer",
+          "user": "Noah",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2652/300/200",
@@ -3576,7 +3576,7 @@
         },
         {
           "id": 53003,
-          "user": "teacher",
+          "user": "Tina",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2653/300/200",
@@ -3584,7 +3584,7 @@
         },
         {
           "id": 53004,
-          "user": "gamer",
+          "user": "Owen",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -3608,7 +3608,7 @@
       "comments": [
         {
           "id": 54001,
-          "user": "engineer",
+          "user": "Uma",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3616,7 +3616,7 @@
         },
         {
           "id": 54002,
-          "user": "local",
+          "user": "Will",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2702/300/200",
@@ -3624,7 +3624,7 @@
         },
         {
           "id": 54003,
-          "user": "engineer",
+          "user": "Quin",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3632,7 +3632,7 @@
         },
         {
           "id": 54004,
-          "user": "nurse",
+          "user": "Alex",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2704/300/200",
@@ -3656,7 +3656,7 @@
       "comments": [
         {
           "id": 55001,
-          "user": "student",
+          "user": "Sam",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2751/300/200",
@@ -3664,7 +3664,7 @@
         },
         {
           "id": 55002,
-          "user": "teacher",
+          "user": "Liam",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3672,7 +3672,7 @@
         },
         {
           "id": 55003,
-          "user": "traveler",
+          "user": "Vera",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3680,7 +3680,7 @@
         },
         {
           "id": 55004,
-          "user": "student",
+          "user": "Kara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3704,7 +3704,7 @@
       "comments": [
         {
           "id": 56001,
-          "user": "artist",
+          "user": "Hugo",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2801/300/200",
@@ -3712,7 +3712,7 @@
         },
         {
           "id": 56002,
-          "user": "student",
+          "user": "Ivy",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -3720,7 +3720,7 @@
         },
         {
           "id": 56003,
-          "user": "nurse",
+          "user": "Mia",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -3728,7 +3728,7 @@
         },
         {
           "id": 56004,
-          "user": "local",
+          "user": "Cara",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3736,7 +3736,7 @@
         },
         {
           "id": 56005,
-          "user": "nurse",
+          "user": "Gina",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3760,7 +3760,7 @@
       "comments": [
         {
           "id": 57001,
-          "user": "student",
+          "user": "Yara",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3768,7 +3768,7 @@
         },
         {
           "id": 57002,
-          "user": "local",
+          "user": "Jack",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3776,7 +3776,7 @@
         },
         {
           "id": 57003,
-          "user": "reporter",
+          "user": "Ella",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2853/300/200",
@@ -3784,7 +3784,7 @@
         },
         {
           "id": 57004,
-          "user": "traveler",
+          "user": "Finn",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3792,7 +3792,7 @@
         },
         {
           "id": 57005,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3800,7 +3800,7 @@
         },
         {
           "id": 57006,
-          "user": "artist",
+          "user": "Ben",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3808,7 +3808,7 @@
         },
         {
           "id": 57007,
-          "user": "gamer",
+          "user": "Zane",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2857/300/200",
@@ -3816,7 +3816,7 @@
         },
         {
           "id": 57008,
-          "user": "gamer",
+          "user": "Xena",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3824,7 +3824,7 @@
         },
         {
           "id": 57009,
-          "user": "guest",
+          "user": "Xena",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3848,7 +3848,7 @@
       "comments": [
         {
           "id": 58001,
-          "user": "gamer",
+          "user": "Liam",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -3856,7 +3856,7 @@
         },
         {
           "id": 58002,
-          "user": "traveler",
+          "user": "Kara",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -3864,7 +3864,7 @@
         },
         {
           "id": 58003,
-          "user": "engineer",
+          "user": "Owen",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -3872,7 +3872,7 @@
         },
         {
           "id": 58004,
-          "user": "student",
+          "user": "Cara",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -3880,7 +3880,7 @@
         },
         {
           "id": 58005,
-          "user": "teacher",
+          "user": "Gina",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -3888,7 +3888,7 @@
         },
         {
           "id": 58006,
-          "user": "teacher",
+          "user": "Vera",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -3896,7 +3896,7 @@
         },
         {
           "id": 58007,
-          "user": "artist",
+          "user": "Zane",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -3904,7 +3904,7 @@
         },
         {
           "id": 58008,
-          "user": "traveler",
+          "user": "Ben",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -3912,7 +3912,7 @@
         },
         {
           "id": 58009,
-          "user": "traveler",
+          "user": "Sam",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2909/300/200",
@@ -3936,7 +3936,7 @@
       "comments": [
         {
           "id": 59001,
-          "user": "student",
+          "user": "Tina",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2951/300/200",
@@ -3944,7 +3944,7 @@
         },
         {
           "id": 59002,
-          "user": "traveler",
+          "user": "Pia",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3952,7 +3952,7 @@
         },
         {
           "id": 59003,
-          "user": "artist",
+          "user": "Finn",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -3960,7 +3960,7 @@
         },
         {
           "id": 59004,
-          "user": "teacher",
+          "user": "Hugo",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/2954/300/200",
@@ -3968,7 +3968,7 @@
         },
         {
           "id": 59005,
-          "user": "nurse",
+          "user": "Ivy",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -3976,7 +3976,7 @@
         },
         {
           "id": 59006,
-          "user": "engineer",
+          "user": "Uma",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3984,7 +3984,7 @@
         },
         {
           "id": 59007,
-          "user": "engineer",
+          "user": "Jack",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -3992,7 +3992,7 @@
         },
         {
           "id": 59008,
-          "user": "artist",
+          "user": "Ella",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/2958/300/200",
@@ -4016,7 +4016,7 @@
       "comments": [
         {
           "id": 60001,
-          "user": "traveler",
+          "user": "Noah",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4024,7 +4024,7 @@
         },
         {
           "id": 60002,
-          "user": "teacher",
+          "user": "Dan",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3002/300/200",
@@ -4032,7 +4032,7 @@
         },
         {
           "id": 60003,
-          "user": "student",
+          "user": "Alex",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4040,7 +4040,7 @@
         },
         {
           "id": 60004,
-          "user": "guest",
+          "user": "Mia",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4048,7 +4048,7 @@
         },
         {
           "id": 60005,
-          "user": "nurse",
+          "user": "Yara",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -4056,7 +4056,7 @@
         },
         {
           "id": 60006,
-          "user": "student",
+          "user": "Rose",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -4064,7 +4064,7 @@
         },
         {
           "id": 60007,
-          "user": "engineer",
+          "user": "Will",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4088,7 +4088,7 @@
       "comments": [
         {
           "id": 61001,
-          "user": "guest",
+          "user": "Quin",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3051/300/200",
@@ -4096,7 +4096,7 @@
         },
         {
           "id": 61002,
-          "user": "engineer",
+          "user": "Quin",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3052/300/200",
@@ -4104,7 +4104,7 @@
         },
         {
           "id": 61003,
-          "user": "guest",
+          "user": "Ben",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4112,7 +4112,7 @@
         },
         {
           "id": 61004,
-          "user": "gamer",
+          "user": "Yara",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -4120,7 +4120,7 @@
         },
         {
           "id": 61005,
-          "user": "student",
+          "user": "Ivy",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4128,7 +4128,7 @@
         },
         {
           "id": 61006,
-          "user": "guest",
+          "user": "Alex",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -4136,7 +4136,7 @@
         },
         {
           "id": 61007,
-          "user": "engineer",
+          "user": "Zane",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -4160,7 +4160,7 @@
       "comments": [
         {
           "id": 62001,
-          "user": "guest",
+          "user": "Xena",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4168,7 +4168,7 @@
         },
         {
           "id": 62002,
-          "user": "nurse",
+          "user": "Noah",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4176,7 +4176,7 @@
         },
         {
           "id": 62003,
-          "user": "artist",
+          "user": "Vera",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3103/300/200",
@@ -4184,7 +4184,7 @@
         },
         {
           "id": 62004,
-          "user": "traveler",
+          "user": "Rose",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4192,7 +4192,7 @@
         },
         {
           "id": 62005,
-          "user": "artist",
+          "user": "Sam",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3105/300/200",
@@ -4200,7 +4200,7 @@
         },
         {
           "id": 62006,
-          "user": "traveler",
+          "user": "Gina",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -4208,7 +4208,7 @@
         },
         {
           "id": 62007,
-          "user": "nurse",
+          "user": "Will",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4216,7 +4216,7 @@
         },
         {
           "id": 62008,
-          "user": "traveler",
+          "user": "Uma",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4240,7 +4240,7 @@
       "comments": [
         {
           "id": 63001,
-          "user": "teacher",
+          "user": "Dan",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4248,7 +4248,7 @@
         },
         {
           "id": 63002,
-          "user": "local",
+          "user": "Hugo",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3152/300/200",
@@ -4256,7 +4256,7 @@
         },
         {
           "id": 63003,
-          "user": "nurse",
+          "user": "Owen",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4264,7 +4264,7 @@
         },
         {
           "id": 63004,
-          "user": "artist",
+          "user": "Liam",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -4272,7 +4272,7 @@
         },
         {
           "id": 63005,
-          "user": "gamer",
+          "user": "Pia",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -4280,7 +4280,7 @@
         },
         {
           "id": 63006,
-          "user": "artist",
+          "user": "Jack",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -4288,7 +4288,7 @@
         },
         {
           "id": 63007,
-          "user": "engineer",
+          "user": "Kara",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3157/300/200",
@@ -4312,7 +4312,7 @@
       "comments": [
         {
           "id": 64001,
-          "user": "student",
+          "user": "Cara",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4320,7 +4320,7 @@
         },
         {
           "id": 64002,
-          "user": "nurse",
+          "user": "Finn",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4328,7 +4328,7 @@
         },
         {
           "id": 64003,
-          "user": "traveler",
+          "user": "Tina",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4336,7 +4336,7 @@
         },
         {
           "id": 64004,
-          "user": "local",
+          "user": "Ella",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3204/300/200",
@@ -4360,7 +4360,7 @@
       "comments": [
         {
           "id": 65001,
-          "user": "nurse",
+          "user": "Mia",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4368,7 +4368,7 @@
         },
         {
           "id": 65002,
-          "user": "traveler",
+          "user": "Ivy",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4376,7 +4376,7 @@
         },
         {
           "id": 65003,
-          "user": "local",
+          "user": "Vera",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -4384,7 +4384,7 @@
         },
         {
           "id": 65004,
-          "user": "artist",
+          "user": "Dan",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -4408,7 +4408,7 @@
       "comments": [
         {
           "id": 66001,
-          "user": "nurse",
+          "user": "Finn",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4416,7 +4416,7 @@
         },
         {
           "id": 66002,
-          "user": "teacher",
+          "user": "Owen",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3302/300/200",
@@ -4424,7 +4424,7 @@
         },
         {
           "id": 66003,
-          "user": "student",
+          "user": "Quin",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -4432,7 +4432,7 @@
         },
         {
           "id": 66004,
-          "user": "local",
+          "user": "Ella",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4440,7 +4440,7 @@
         },
         {
           "id": 66005,
-          "user": "student",
+          "user": "Cara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3305/300/200",
@@ -4464,7 +4464,7 @@
       "comments": [
         {
           "id": 67001,
-          "user": "teacher",
+          "user": "Mia",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -4472,7 +4472,7 @@
         },
         {
           "id": 67002,
-          "user": "traveler",
+          "user": "Jack",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4480,7 +4480,7 @@
         },
         {
           "id": 67003,
-          "user": "local",
+          "user": "Sam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3353/300/200",
@@ -4488,7 +4488,7 @@
         },
         {
           "id": 67004,
-          "user": "artist",
+          "user": "Xena",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -4496,7 +4496,7 @@
         },
         {
           "id": 67005,
-          "user": "traveler",
+          "user": "Hugo",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4504,7 +4504,7 @@
         },
         {
           "id": 67006,
-          "user": "student",
+          "user": "Alex",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3356/300/200",
@@ -4512,7 +4512,7 @@
         },
         {
           "id": 67007,
-          "user": "gamer",
+          "user": "Ben",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -4536,7 +4536,7 @@
       "comments": [
         {
           "id": 68001,
-          "user": "reporter",
+          "user": "Kara",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4544,7 +4544,7 @@
         },
         {
           "id": 68002,
-          "user": "teacher",
+          "user": "Noah",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4552,7 +4552,7 @@
         },
         {
           "id": 68003,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3403/300/200",
@@ -4560,7 +4560,7 @@
         },
         {
           "id": 68004,
-          "user": "teacher",
+          "user": "Yara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3404/300/200",
@@ -4568,7 +4568,7 @@
         },
         {
           "id": 68005,
-          "user": "gamer",
+          "user": "Tina",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3405/300/200",
@@ -4576,7 +4576,7 @@
         },
         {
           "id": 68006,
-          "user": "guest",
+          "user": "Pia",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -4584,7 +4584,7 @@
         },
         {
           "id": 68007,
-          "user": "gamer",
+          "user": "Zane",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -4592,7 +4592,7 @@
         },
         {
           "id": 68008,
-          "user": "traveler",
+          "user": "Uma",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4616,7 +4616,7 @@
       "comments": [
         {
           "id": 69001,
-          "user": "local",
+          "user": "Will",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -4624,7 +4624,7 @@
         },
         {
           "id": 69002,
-          "user": "nurse",
+          "user": "Liam",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3452/300/200",
@@ -4632,7 +4632,7 @@
         },
         {
           "id": 69003,
-          "user": "student",
+          "user": "Gina",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3453/300/200",
@@ -4640,7 +4640,7 @@
         },
         {
           "id": 69004,
-          "user": "nurse",
+          "user": "Jack",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -4648,7 +4648,7 @@
         },
         {
           "id": 69005,
-          "user": "artist",
+          "user": "Sam",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -4656,7 +4656,7 @@
         },
         {
           "id": 69006,
-          "user": "student",
+          "user": "Cara",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4664,7 +4664,7 @@
         },
         {
           "id": 69007,
-          "user": "reporter",
+          "user": "Zane",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4672,7 +4672,7 @@
         },
         {
           "id": 69008,
-          "user": "nurse",
+          "user": "Uma",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4696,7 +4696,7 @@
       "comments": [
         {
           "id": 70001,
-          "user": "local",
+          "user": "Pia",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3501/300/200",
@@ -4704,7 +4704,7 @@
         },
         {
           "id": 70002,
-          "user": "guest",
+          "user": "Kara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4712,7 +4712,7 @@
         },
         {
           "id": 70003,
-          "user": "guest",
+          "user": "Ella",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3503/300/200",
@@ -4720,7 +4720,7 @@
         },
         {
           "id": 70004,
-          "user": "guest",
+          "user": "Gina",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4728,7 +4728,7 @@
         },
         {
           "id": 70005,
-          "user": "reporter",
+          "user": "Hugo",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4736,7 +4736,7 @@
         },
         {
           "id": 70006,
-          "user": "student",
+          "user": "Will",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4760,7 +4760,7 @@
       "comments": [
         {
           "id": 71001,
-          "user": "teacher",
+          "user": "Tina",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -4768,7 +4768,7 @@
         },
         {
           "id": 71002,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3552/300/200",
@@ -4776,7 +4776,7 @@
         },
         {
           "id": 71003,
-          "user": "artist",
+          "user": "Ivy",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3553/300/200",
@@ -4784,7 +4784,7 @@
         },
         {
           "id": 71004,
-          "user": "nurse",
+          "user": "Vera",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4792,7 +4792,7 @@
         },
         {
           "id": 71005,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4800,7 +4800,7 @@
         },
         {
           "id": 71006,
-          "user": "traveler",
+          "user": "Noah",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4808,7 +4808,7 @@
         },
         {
           "id": 71007,
-          "user": "reporter",
+          "user": "Ben",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -4816,7 +4816,7 @@
         },
         {
           "id": 71008,
-          "user": "nurse",
+          "user": "Alex",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -4840,7 +4840,7 @@
       "comments": [
         {
           "id": 72001,
-          "user": "teacher",
+          "user": "Quin",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3601/300/200",
@@ -4848,7 +4848,7 @@
         },
         {
           "id": 72002,
-          "user": "local",
+          "user": "Dan",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4856,7 +4856,7 @@
         },
         {
           "id": 72003,
-          "user": "gamer",
+          "user": "Owen",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -4864,7 +4864,7 @@
         },
         {
           "id": 72004,
-          "user": "gamer",
+          "user": "Finn",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3604/300/200",
@@ -4872,7 +4872,7 @@
         },
         {
           "id": 72005,
-          "user": "teacher",
+          "user": "Mia",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4896,7 +4896,7 @@
       "comments": [
         {
           "id": 73001,
-          "user": "reporter",
+          "user": "Liam",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4904,7 +4904,7 @@
         },
         {
           "id": 73002,
-          "user": "teacher",
+          "user": "Xena",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3652/300/200",
@@ -4912,7 +4912,7 @@
         },
         {
           "id": 73003,
-          "user": "teacher",
+          "user": "Zane",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -4920,7 +4920,7 @@
         },
         {
           "id": 73004,
-          "user": "nurse",
+          "user": "Ivy",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -4928,7 +4928,7 @@
         },
         {
           "id": 73005,
-          "user": "nurse",
+          "user": "Dan",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -4936,7 +4936,7 @@
         },
         {
           "id": 73006,
-          "user": "engineer",
+          "user": "Liam",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4944,7 +4944,7 @@
         },
         {
           "id": 73007,
-          "user": "student",
+          "user": "Finn",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3657/300/200",
@@ -4952,7 +4952,7 @@
         },
         {
           "id": 73008,
-          "user": "gamer",
+          "user": "Jack",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -4960,7 +4960,7 @@
         },
         {
           "id": 73009,
-          "user": "reporter",
+          "user": "Ben",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3659/300/200",
@@ -4984,7 +4984,7 @@
       "comments": [
         {
           "id": 74001,
-          "user": "nurse",
+          "user": "Ella",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -4992,7 +4992,7 @@
         },
         {
           "id": 74002,
-          "user": "student",
+          "user": "Will",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5000,7 +5000,7 @@
         },
         {
           "id": 74003,
-          "user": "artist",
+          "user": "Tina",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5008,7 +5008,7 @@
         },
         {
           "id": 74004,
-          "user": "local",
+          "user": "Quin",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -5016,7 +5016,7 @@
         },
         {
           "id": 74005,
-          "user": "reporter",
+          "user": "Kara",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5024,7 +5024,7 @@
         },
         {
           "id": 74006,
-          "user": "artist",
+          "user": "Vera",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3706/300/200",
@@ -5048,7 +5048,7 @@
       "comments": [
         {
           "id": 75001,
-          "user": "nurse",
+          "user": "Sam",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5056,7 +5056,7 @@
         },
         {
           "id": 75002,
-          "user": "guest",
+          "user": "Cara",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -5064,7 +5064,7 @@
         },
         {
           "id": 75003,
-          "user": "traveler",
+          "user": "Yara",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3753/300/200",
@@ -5072,7 +5072,7 @@
         },
         {
           "id": 75004,
-          "user": "engineer",
+          "user": "Xena",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5080,7 +5080,7 @@
         },
         {
           "id": 75005,
-          "user": "student",
+          "user": "Hugo",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3755/300/200",
@@ -5088,7 +5088,7 @@
         },
         {
           "id": 75006,
-          "user": "teacher",
+          "user": "Gina",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5096,7 +5096,7 @@
         },
         {
           "id": 75007,
-          "user": "engineer",
+          "user": "Uma",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3757/300/200",
@@ -5104,7 +5104,7 @@
         },
         {
           "id": 75008,
-          "user": "reporter",
+          "user": "Mia",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5112,7 +5112,7 @@
         },
         {
           "id": 75009,
-          "user": "guest",
+          "user": "Rose",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5136,7 +5136,7 @@
       "comments": [
         {
           "id": 76001,
-          "user": "student",
+          "user": "Owen",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3801/300/200",
@@ -5144,7 +5144,7 @@
         },
         {
           "id": 76002,
-          "user": "teacher",
+          "user": "Pia",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5152,7 +5152,7 @@
         },
         {
           "id": 76003,
-          "user": "reporter",
+          "user": "Noah",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5160,7 +5160,7 @@
         },
         {
           "id": 76004,
-          "user": "gamer",
+          "user": "Alex",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5168,7 +5168,7 @@
         },
         {
           "id": 76005,
-          "user": "traveler",
+          "user": "Noah",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -5176,7 +5176,7 @@
         },
         {
           "id": 76006,
-          "user": "guest",
+          "user": "Gina",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -5184,7 +5184,7 @@
         },
         {
           "id": 76007,
-          "user": "engineer",
+          "user": "Xena",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5208,7 +5208,7 @@
       "comments": [
         {
           "id": 77001,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5216,7 +5216,7 @@
         },
         {
           "id": 77002,
-          "user": "local",
+          "user": "Ivy",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5224,7 +5224,7 @@
         },
         {
           "id": 77003,
-          "user": "local",
+          "user": "Kara",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -5232,7 +5232,7 @@
         },
         {
           "id": 77004,
-          "user": "gamer",
+          "user": "Will",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5240,7 +5240,7 @@
         },
         {
           "id": 77005,
-          "user": "traveler",
+          "user": "Mia",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5248,7 +5248,7 @@
         },
         {
           "id": 77006,
-          "user": "engineer",
+          "user": "Dan",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5256,7 +5256,7 @@
         },
         {
           "id": 77007,
-          "user": "engineer",
+          "user": "Pia",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -5264,7 +5264,7 @@
         },
         {
           "id": 77008,
-          "user": "reporter",
+          "user": "Owen",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3858/300/200",
@@ -5288,7 +5288,7 @@
       "comments": [
         {
           "id": 78001,
-          "user": "engineer",
+          "user": "Ella",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/3901/300/200",
@@ -5296,7 +5296,7 @@
         },
         {
           "id": 78002,
-          "user": "traveler",
+          "user": "Jack",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3902/300/200",
@@ -5304,7 +5304,7 @@
         },
         {
           "id": 78003,
-          "user": "student",
+          "user": "Sam",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3903/300/200",
@@ -5312,7 +5312,7 @@
         },
         {
           "id": 78004,
-          "user": "artist",
+          "user": "Yara",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -5320,7 +5320,7 @@
         },
         {
           "id": 78005,
-          "user": "artist",
+          "user": "Hugo",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3905/300/200",
@@ -5328,7 +5328,7 @@
         },
         {
           "id": 78006,
-          "user": "engineer",
+          "user": "Quin",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -5336,7 +5336,7 @@
         },
         {
           "id": 78007,
-          "user": "local",
+          "user": "Vera",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -5344,7 +5344,7 @@
         },
         {
           "id": 78008,
-          "user": "engineer",
+          "user": "Zane",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3908/300/200",
@@ -5352,7 +5352,7 @@
         },
         {
           "id": 78009,
-          "user": "nurse",
+          "user": "Tina",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5376,7 +5376,7 @@
       "comments": [
         {
           "id": 79001,
-          "user": "teacher",
+          "user": "Finn",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -5384,7 +5384,7 @@
         },
         {
           "id": 79002,
-          "user": "nurse",
+          "user": "Liam",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5392,7 +5392,7 @@
         },
         {
           "id": 79003,
-          "user": "guest",
+          "user": "Cara",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/3953/300/200",
@@ -5400,7 +5400,7 @@
         },
         {
           "id": 79004,
-          "user": "teacher",
+          "user": "Ben",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -5408,7 +5408,7 @@
         },
         {
           "id": 79005,
-          "user": "gamer",
+          "user": "Alex",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5416,7 +5416,7 @@
         },
         {
           "id": 79006,
-          "user": "reporter",
+          "user": "Uma",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -5424,7 +5424,7 @@
         },
         {
           "id": 79007,
-          "user": "teacher",
+          "user": "Vera",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -5448,7 +5448,7 @@
       "comments": [
         {
           "id": 80001,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5456,7 +5456,7 @@
         },
         {
           "id": 80002,
-          "user": "gamer",
+          "user": "Tina",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5464,7 +5464,7 @@
         },
         {
           "id": 80003,
-          "user": "nurse",
+          "user": "Liam",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5472,7 +5472,7 @@
         },
         {
           "id": 80004,
-          "user": "local",
+          "user": "Noah",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4004/300/200",
@@ -5480,7 +5480,7 @@
         },
         {
           "id": 80005,
-          "user": "traveler",
+          "user": "Ivy",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4005/300/200",
@@ -5488,7 +5488,7 @@
         },
         {
           "id": 80006,
-          "user": "engineer",
+          "user": "Ella",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4006/300/200",
@@ -5512,7 +5512,7 @@
       "comments": [
         {
           "id": 81001,
-          "user": "engineer",
+          "user": "Xena",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -5520,7 +5520,7 @@
         },
         {
           "id": 81002,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5528,7 +5528,7 @@
         },
         {
           "id": 81003,
-          "user": "teacher",
+          "user": "Ben",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4053/300/200",
@@ -5536,7 +5536,7 @@
         },
         {
           "id": 81004,
-          "user": "engineer",
+          "user": "Gina",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4054/300/200",
@@ -5544,7 +5544,7 @@
         },
         {
           "id": 81005,
-          "user": "guest",
+          "user": "Kara",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5552,7 +5552,7 @@
         },
         {
           "id": 81006,
-          "user": "artist",
+          "user": "Will",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -5560,7 +5560,7 @@
         },
         {
           "id": 81007,
-          "user": "gamer",
+          "user": "Quin",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5568,7 +5568,7 @@
         },
         {
           "id": 81008,
-          "user": "local",
+          "user": "Sam",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4058/300/200",
@@ -5592,7 +5592,7 @@
       "comments": [
         {
           "id": 82001,
-          "user": "reporter",
+          "user": "Dan",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -5600,7 +5600,7 @@
         },
         {
           "id": 82002,
-          "user": "nurse",
+          "user": "Uma",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4102/300/200",
@@ -5608,7 +5608,7 @@
         },
         {
           "id": 82003,
-          "user": "local",
+          "user": "Alex",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4103/300/200",
@@ -5616,7 +5616,7 @@
         },
         {
           "id": 82004,
-          "user": "student",
+          "user": "Mia",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5624,7 +5624,7 @@
         },
         {
           "id": 82005,
-          "user": "teacher",
+          "user": "Zane",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5632,7 +5632,7 @@
         },
         {
           "id": 82006,
-          "user": "engineer",
+          "user": "Hugo",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4106/300/200",
@@ -5656,7 +5656,7 @@
       "comments": [
         {
           "id": 83001,
-          "user": "reporter",
+          "user": "Finn",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -5664,7 +5664,7 @@
         },
         {
           "id": 83002,
-          "user": "reporter",
+          "user": "Cara",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -5672,7 +5672,7 @@
         },
         {
           "id": 83003,
-          "user": "local",
+          "user": "Pia",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -5680,7 +5680,7 @@
         },
         {
           "id": 83004,
-          "user": "teacher",
+          "user": "Owen",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5688,7 +5688,7 @@
         },
         {
           "id": 83005,
-          "user": "nurse",
+          "user": "Jack",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4155/300/200",
@@ -5696,7 +5696,7 @@
         },
         {
           "id": 83006,
-          "user": "gamer",
+          "user": "Pia",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -5704,7 +5704,7 @@
         },
         {
           "id": 83007,
-          "user": "gamer",
+          "user": "Ivy",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5728,7 +5728,7 @@
       "comments": [
         {
           "id": 84001,
-          "user": "traveler",
+          "user": "Gina",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4201/300/200",
@@ -5736,7 +5736,7 @@
         },
         {
           "id": 84002,
-          "user": "artist",
+          "user": "Vera",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -5744,7 +5744,7 @@
         },
         {
           "id": 84003,
-          "user": "engineer",
+          "user": "Liam",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4203/300/200",
@@ -5752,7 +5752,7 @@
         },
         {
           "id": 84004,
-          "user": "student",
+          "user": "Uma",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5760,7 +5760,7 @@
         },
         {
           "id": 84005,
-          "user": "teacher",
+          "user": "Hugo",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4205/300/200",
@@ -5768,7 +5768,7 @@
         },
         {
           "id": 84006,
-          "user": "guest",
+          "user": "Jack",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5776,7 +5776,7 @@
         },
         {
           "id": 84007,
-          "user": "artist",
+          "user": "Mia",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -5784,7 +5784,7 @@
         },
         {
           "id": 84008,
-          "user": "nurse",
+          "user": "Alex",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -5792,7 +5792,7 @@
         },
         {
           "id": 84009,
-          "user": "reporter",
+          "user": "Yara",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -5816,7 +5816,7 @@
       "comments": [
         {
           "id": 85001,
-          "user": "nurse",
+          "user": "Finn",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -5824,7 +5824,7 @@
         },
         {
           "id": 85002,
-          "user": "artist",
+          "user": "Will",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4252/300/200",
@@ -5832,7 +5832,7 @@
         },
         {
           "id": 85003,
-          "user": "nurse",
+          "user": "Ella",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -5840,7 +5840,7 @@
         },
         {
           "id": 85004,
-          "user": "reporter",
+          "user": "Kara",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4254/300/200",
@@ -5848,7 +5848,7 @@
         },
         {
           "id": 85005,
-          "user": "traveler",
+          "user": "Zane",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4255/300/200",
@@ -5856,7 +5856,7 @@
         },
         {
           "id": 85006,
-          "user": "local",
+          "user": "Rose",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4256/300/200",
@@ -5880,7 +5880,7 @@
       "comments": [
         {
           "id": 86001,
-          "user": "gamer",
+          "user": "Xena",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -5888,7 +5888,7 @@
         },
         {
           "id": 86002,
-          "user": "guest",
+          "user": "Owen",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5896,7 +5896,7 @@
         },
         {
           "id": 86003,
-          "user": "student",
+          "user": "Noah",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -5904,7 +5904,7 @@
         },
         {
           "id": 86004,
-          "user": "gamer",
+          "user": "Dan",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4304/300/200",
@@ -5912,7 +5912,7 @@
         },
         {
           "id": 86005,
-          "user": "local",
+          "user": "Quin",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5920,7 +5920,7 @@
         },
         {
           "id": 86006,
-          "user": "guest",
+          "user": "Tina",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5928,7 +5928,7 @@
         },
         {
           "id": 86007,
-          "user": "student",
+          "user": "Cara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4307/300/200",
@@ -5936,7 +5936,7 @@
         },
         {
           "id": 86008,
-          "user": "reporter",
+          "user": "Ben",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -5944,7 +5944,7 @@
         },
         {
           "id": 86009,
-          "user": "traveler",
+          "user": "Sam",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -5968,7 +5968,7 @@
       "comments": [
         {
           "id": 87001,
-          "user": "teacher",
+          "user": "Xena",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4351/300/200",
@@ -5976,7 +5976,7 @@
         },
         {
           "id": 87002,
-          "user": "guest",
+          "user": "Zane",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5984,7 +5984,7 @@
         },
         {
           "id": 87003,
-          "user": "teacher",
+          "user": "Noah",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -5992,7 +5992,7 @@
         },
         {
           "id": 87004,
-          "user": "engineer",
+          "user": "Dan",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6000,7 +6000,7 @@
         },
         {
           "id": 87005,
-          "user": "traveler",
+          "user": "Hugo",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6008,7 +6008,7 @@
         },
         {
           "id": 87006,
-          "user": "nurse",
+          "user": "Gina",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4356/300/200",
@@ -6016,7 +6016,7 @@
         },
         {
           "id": 87007,
-          "user": "guest",
+          "user": "Cara",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6040,7 +6040,7 @@
       "comments": [
         {
           "id": 88001,
-          "user": "engineer",
+          "user": "Rose",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6048,7 +6048,7 @@
         },
         {
           "id": 88002,
-          "user": "traveler",
+          "user": "Alex",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6056,7 +6056,7 @@
         },
         {
           "id": 88003,
-          "user": "local",
+          "user": "Mia",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6064,7 +6064,7 @@
         },
         {
           "id": 88004,
-          "user": "student",
+          "user": "Sam",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -6072,7 +6072,7 @@
         },
         {
           "id": 88005,
-          "user": "reporter",
+          "user": "Liam",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -6080,7 +6080,7 @@
         },
         {
           "id": 88006,
-          "user": "guest",
+          "user": "Kara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6088,7 +6088,7 @@
         },
         {
           "id": 88007,
-          "user": "reporter",
+          "user": "Pia",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4407/300/200",
@@ -6112,7 +6112,7 @@
       "comments": [
         {
           "id": 89001,
-          "user": "student",
+          "user": "Owen",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6120,7 +6120,7 @@
         },
         {
           "id": 89002,
-          "user": "local",
+          "user": "Ella",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -6128,7 +6128,7 @@
         },
         {
           "id": 89003,
-          "user": "student",
+          "user": "Yara",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -6136,7 +6136,7 @@
         },
         {
           "id": 89004,
-          "user": "student",
+          "user": "Will",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -6160,7 +6160,7 @@
       "comments": [
         {
           "id": 90001,
-          "user": "reporter",
+          "user": "Ivy",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6168,7 +6168,7 @@
         },
         {
           "id": 90002,
-          "user": "nurse",
+          "user": "Uma",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6176,7 +6176,7 @@
         },
         {
           "id": 90003,
-          "user": "local",
+          "user": "Finn",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4503/300/200",
@@ -6184,7 +6184,7 @@
         },
         {
           "id": 90004,
-          "user": "student",
+          "user": "Tina",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -6192,7 +6192,7 @@
         },
         {
           "id": 90005,
-          "user": "artist",
+          "user": "Quin",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4505/300/200",
@@ -6200,7 +6200,7 @@
         },
         {
           "id": 90006,
-          "user": "traveler",
+          "user": "Jack",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6208,7 +6208,7 @@
         },
         {
           "id": 90007,
-          "user": "engineer",
+          "user": "Ben",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -6216,7 +6216,7 @@
         },
         {
           "id": 90008,
-          "user": "reporter",
+          "user": "Vera",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6240,7 +6240,7 @@
       "comments": [
         {
           "id": 91001,
-          "user": "guest",
+          "user": "Will",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6248,7 +6248,7 @@
         },
         {
           "id": 91002,
-          "user": "gamer",
+          "user": "Zane",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4552/300/200",
@@ -6256,7 +6256,7 @@
         },
         {
           "id": 91003,
-          "user": "nurse",
+          "user": "Cara",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6264,7 +6264,7 @@
         },
         {
           "id": 91004,
-          "user": "traveler",
+          "user": "Uma",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4554/300/200",
@@ -6272,7 +6272,7 @@
         },
         {
           "id": 91005,
-          "user": "engineer",
+          "user": "Sam",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4555/300/200",
@@ -6280,7 +6280,7 @@
         },
         {
           "id": 91006,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6288,7 +6288,7 @@
         },
         {
           "id": 91007,
-          "user": "artist",
+          "user": "Ben",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4557/300/200",
@@ -6296,7 +6296,7 @@
         },
         {
           "id": 91008,
-          "user": "artist",
+          "user": "Jack",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6304,7 +6304,7 @@
         },
         {
           "id": 91009,
-          "user": "teacher",
+          "user": "Owen",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4559/300/200",
@@ -6328,7 +6328,7 @@
       "comments": [
         {
           "id": 92001,
-          "user": "reporter",
+          "user": "Finn",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4601/300/200",
@@ -6336,7 +6336,7 @@
         },
         {
           "id": 92002,
-          "user": "gamer",
+          "user": "Alex",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4602/300/200",
@@ -6344,7 +6344,7 @@
         },
         {
           "id": 92003,
-          "user": "student",
+          "user": "Ivy",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -6352,7 +6352,7 @@
         },
         {
           "id": 92004,
-          "user": "guest",
+          "user": "Kara",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4604/300/200",
@@ -6360,7 +6360,7 @@
         },
         {
           "id": 92005,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -6368,7 +6368,7 @@
         },
         {
           "id": 92006,
-          "user": "traveler",
+          "user": "Gina",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4606/300/200",
@@ -6376,7 +6376,7 @@
         },
         {
           "id": 92007,
-          "user": "engineer",
+          "user": "Tina",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4607/300/200",
@@ -6384,7 +6384,7 @@
         },
         {
           "id": 92008,
-          "user": "gamer",
+          "user": "Vera",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4608/300/200",
@@ -6392,7 +6392,7 @@
         },
         {
           "id": 92009,
-          "user": "guest",
+          "user": "Hugo",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -6416,7 +6416,7 @@
       "comments": [
         {
           "id": 93001,
-          "user": "local",
+          "user": "Quin",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6424,7 +6424,7 @@
         },
         {
           "id": 93002,
-          "user": "guest",
+          "user": "Noah",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4652/300/200",
@@ -6432,7 +6432,7 @@
         },
         {
           "id": 93003,
-          "user": "student",
+          "user": "Pia",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -6440,7 +6440,7 @@
         },
         {
           "id": 93004,
-          "user": "artist",
+          "user": "Mia",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6464,7 +6464,7 @@
       "comments": [
         {
           "id": 94001,
-          "user": "gamer",
+          "user": "Dan",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -6472,7 +6472,7 @@
         },
         {
           "id": 94002,
-          "user": "guest",
+          "user": "Ella",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -6480,7 +6480,7 @@
         },
         {
           "id": 94003,
-          "user": "guest",
+          "user": "Xena",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -6488,7 +6488,7 @@
         },
         {
           "id": 94004,
-          "user": "traveler",
+          "user": "Liam",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -6496,7 +6496,7 @@
         },
         {
           "id": 94005,
-          "user": "guest",
+          "user": "Rose",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -6504,7 +6504,7 @@
         },
         {
           "id": 94006,
-          "user": "traveler",
+          "user": "Xena",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -6512,7 +6512,7 @@
         },
         {
           "id": 94007,
-          "user": "nurse",
+          "user": "Sam",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -6520,7 +6520,7 @@
         },
         {
           "id": 94008,
-          "user": "reporter",
+          "user": "Ivy",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6528,7 +6528,7 @@
         },
         {
           "id": 94009,
-          "user": "reporter",
+          "user": "Finn",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -6552,7 +6552,7 @@
       "comments": [
         {
           "id": 95001,
-          "user": "artist",
+          "user": "Liam",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4751/300/200",
@@ -6560,7 +6560,7 @@
         },
         {
           "id": 95002,
-          "user": "student",
+          "user": "Kara",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -6568,7 +6568,7 @@
         },
         {
           "id": 95003,
-          "user": "artist",
+          "user": "Mia",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -6576,7 +6576,7 @@
         },
         {
           "id": 95004,
-          "user": "local",
+          "user": "Noah",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6584,7 +6584,7 @@
         },
         {
           "id": 95005,
-          "user": "engineer",
+          "user": "Hugo",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -6592,7 +6592,7 @@
         },
         {
           "id": 95006,
-          "user": "student",
+          "user": "Ben",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4756/300/200",
@@ -6600,7 +6600,7 @@
         },
         {
           "id": 95007,
-          "user": "engineer",
+          "user": "Gina",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -6608,7 +6608,7 @@
         },
         {
           "id": 95008,
-          "user": "local",
+          "user": "Tina",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4758/300/200",
@@ -6616,7 +6616,7 @@
         },
         {
           "id": 95009,
-          "user": "local",
+          "user": "Cara",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -6640,7 +6640,7 @@
       "comments": [
         {
           "id": 96001,
-          "user": "reporter",
+          "user": "Owen",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -6648,7 +6648,7 @@
         },
         {
           "id": 96002,
-          "user": "local",
+          "user": "Quin",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4802/300/200",
@@ -6656,7 +6656,7 @@
         },
         {
           "id": 96003,
-          "user": "gamer",
+          "user": "Vera",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -6664,7 +6664,7 @@
         },
         {
           "id": 96004,
-          "user": "student",
+          "user": "Jack",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -6672,7 +6672,7 @@
         },
         {
           "id": 96005,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -6680,7 +6680,7 @@
         },
         {
           "id": 96006,
-          "user": "student",
+          "user": "Ella",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4806/300/200",
@@ -6704,7 +6704,7 @@
       "comments": [
         {
           "id": 97001,
-          "user": "student",
+          "user": "Pia",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4851/300/200",
@@ -6712,7 +6712,7 @@
         },
         {
           "id": 97002,
-          "user": "reporter",
+          "user": "Alex",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -6720,7 +6720,7 @@
         },
         {
           "id": 97003,
-          "user": "local",
+          "user": "Will",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -6728,7 +6728,7 @@
         },
         {
           "id": 97004,
-          "user": "local",
+          "user": "Uma",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4854/300/200",
@@ -6736,7 +6736,7 @@
         },
         {
           "id": 97005,
-          "user": "student",
+          "user": "Dan",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6760,7 +6760,7 @@
       "comments": [
         {
           "id": 98001,
-          "user": "engineer",
+          "user": "Zane",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -6768,7 +6768,7 @@
         },
         {
           "id": 98002,
-          "user": "student",
+          "user": "Liam",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -6776,7 +6776,7 @@
         },
         {
           "id": 98003,
-          "user": "traveler",
+          "user": "Finn",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4903/300/200",
@@ -6784,7 +6784,7 @@
         },
         {
           "id": 98004,
-          "user": "gamer",
+          "user": "Alex",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/4904/300/200",
@@ -6808,7 +6808,7 @@
       "comments": [
         {
           "id": 99001,
-          "user": "student",
+          "user": "Ivy",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4951/300/200",
@@ -6816,7 +6816,7 @@
         },
         {
           "id": 99002,
-          "user": "artist",
+          "user": "Ben",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -6824,7 +6824,7 @@
         },
         {
           "id": 99003,
-          "user": "guest",
+          "user": "Vera",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6832,7 +6832,7 @@
         },
         {
           "id": 99004,
-          "user": "artist",
+          "user": "Mia",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6840,7 +6840,7 @@
         },
         {
           "id": 99005,
-          "user": "teacher",
+          "user": "Sam",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6848,7 +6848,7 @@
         },
         {
           "id": 99006,
-          "user": "gamer",
+          "user": "Quin",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/4956/300/200",
@@ -6856,7 +6856,7 @@
         },
         {
           "id": 99007,
-          "user": "traveler",
+          "user": "Pia",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -6880,7 +6880,7 @@
       "comments": [
         {
           "id": 100001,
-          "user": "traveler",
+          "user": "Hugo",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -6888,7 +6888,7 @@
         },
         {
           "id": 100002,
-          "user": "gamer",
+          "user": "Xena",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6896,7 +6896,7 @@
         },
         {
           "id": 100003,
-          "user": "student",
+          "user": "Will",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -6904,7 +6904,7 @@
         },
         {
           "id": 100004,
-          "user": "teacher",
+          "user": "Gina",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -6912,7 +6912,7 @@
         },
         {
           "id": 100005,
-          "user": "gamer",
+          "user": "Dan",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6936,7 +6936,7 @@
       "comments": [
         {
           "id": 101001,
-          "user": "guest",
+          "user": "Noah",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5051/300/200",
@@ -6944,7 +6944,7 @@
         },
         {
           "id": 101002,
-          "user": "nurse",
+          "user": "Jack",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5052/300/200",
@@ -6952,7 +6952,7 @@
         },
         {
           "id": 101003,
-          "user": "student",
+          "user": "Zane",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -6960,7 +6960,7 @@
         },
         {
           "id": 101004,
-          "user": "teacher",
+          "user": "Rose",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -6968,7 +6968,7 @@
         },
         {
           "id": 101005,
-          "user": "student",
+          "user": "Tina",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -6976,7 +6976,7 @@
         },
         {
           "id": 101006,
-          "user": "local",
+          "user": "Cara",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7000,7 +7000,7 @@
       "comments": [
         {
           "id": 102001,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -7008,7 +7008,7 @@
         },
         {
           "id": 102002,
-          "user": "artist",
+          "user": "Owen",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5102/300/200",
@@ -7016,7 +7016,7 @@
         },
         {
           "id": 102003,
-          "user": "student",
+          "user": "Kara",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7024,7 +7024,7 @@
         },
         {
           "id": 102004,
-          "user": "student",
+          "user": "Ella",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -7032,7 +7032,7 @@
         },
         {
           "id": 102005,
-          "user": "gamer",
+          "user": "Uma",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7040,7 +7040,7 @@
         },
         {
           "id": 102006,
-          "user": "gamer",
+          "user": "Rose",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7064,7 +7064,7 @@
       "comments": [
         {
           "id": 103001,
-          "user": "student",
+          "user": "Zane",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -7072,7 +7072,7 @@
         },
         {
           "id": 103002,
-          "user": "teacher",
+          "user": "Vera",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5152/300/200",
@@ -7080,7 +7080,7 @@
         },
         {
           "id": 103003,
-          "user": "teacher",
+          "user": "Mia",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7088,7 +7088,7 @@
         },
         {
           "id": 103004,
-          "user": "local",
+          "user": "Quin",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5154/300/200",
@@ -7096,7 +7096,7 @@
         },
         {
           "id": 103005,
-          "user": "guest",
+          "user": "Liam",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5155/300/200",
@@ -7104,7 +7104,7 @@
         },
         {
           "id": 103006,
-          "user": "student",
+          "user": "Dan",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7112,7 +7112,7 @@
         },
         {
           "id": 103007,
-          "user": "artist",
+          "user": "Ella",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7120,7 +7120,7 @@
         },
         {
           "id": 103008,
-          "user": "gamer",
+          "user": "Finn",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7128,7 +7128,7 @@
         },
         {
           "id": 103009,
-          "user": "guest",
+          "user": "Ben",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5159/300/200",
@@ -7152,7 +7152,7 @@
       "comments": [
         {
           "id": 104001,
-          "user": "student",
+          "user": "Uma",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -7160,7 +7160,7 @@
         },
         {
           "id": 104002,
-          "user": "local",
+          "user": "Alex",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -7168,7 +7168,7 @@
         },
         {
           "id": 104003,
-          "user": "nurse",
+          "user": "Pia",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7176,7 +7176,7 @@
         },
         {
           "id": 104004,
-          "user": "gamer",
+          "user": "Sam",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7200,7 +7200,7 @@
       "comments": [
         {
           "id": 105001,
-          "user": "artist",
+          "user": "Gina",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7208,7 +7208,7 @@
         },
         {
           "id": 105002,
-          "user": "local",
+          "user": "Kara",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5252/300/200",
@@ -7216,7 +7216,7 @@
         },
         {
           "id": 105003,
-          "user": "nurse",
+          "user": "Xena",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -7224,7 +7224,7 @@
         },
         {
           "id": 105004,
-          "user": "local",
+          "user": "Ivy",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5254/300/200",
@@ -7232,7 +7232,7 @@
         },
         {
           "id": 105005,
-          "user": "nurse",
+          "user": "Owen",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7256,7 +7256,7 @@
       "comments": [
         {
           "id": 106001,
-          "user": "local",
+          "user": "Will",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5301/300/200",
@@ -7264,7 +7264,7 @@
         },
         {
           "id": 106002,
-          "user": "traveler",
+          "user": "Tina",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7272,7 +7272,7 @@
         },
         {
           "id": 106003,
-          "user": "teacher",
+          "user": "Hugo",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7280,7 +7280,7 @@
         },
         {
           "id": 106004,
-          "user": "traveler",
+          "user": "Cara",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -7288,7 +7288,7 @@
         },
         {
           "id": 106005,
-          "user": "traveler",
+          "user": "Jack",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5305/300/200",
@@ -7296,7 +7296,7 @@
         },
         {
           "id": 106006,
-          "user": "local",
+          "user": "Noah",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -7304,7 +7304,7 @@
         },
         {
           "id": 106007,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7312,7 +7312,7 @@
         },
         {
           "id": 106008,
-          "user": "artist",
+          "user": "Rose",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7320,7 +7320,7 @@
         },
         {
           "id": 106009,
-          "user": "nurse",
+          "user": "Kara",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7344,7 +7344,7 @@
       "comments": [
         {
           "id": 107001,
-          "user": "artist",
+          "user": "Dan",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -7352,7 +7352,7 @@
         },
         {
           "id": 107002,
-          "user": "student",
+          "user": "Owen",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -7360,7 +7360,7 @@
         },
         {
           "id": 107003,
-          "user": "student",
+          "user": "Zane",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7368,7 +7368,7 @@
         },
         {
           "id": 107004,
-          "user": "engineer",
+          "user": "Gina",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7376,7 +7376,7 @@
         },
         {
           "id": 107005,
-          "user": "gamer",
+          "user": "Mia",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7384,7 +7384,7 @@
         },
         {
           "id": 107006,
-          "user": "local",
+          "user": "Ben",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -7392,7 +7392,7 @@
         },
         {
           "id": 107007,
-          "user": "teacher",
+          "user": "Ivy",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7400,7 +7400,7 @@
         },
         {
           "id": 107008,
-          "user": "guest",
+          "user": "Vera",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7408,7 +7408,7 @@
         },
         {
           "id": 107009,
-          "user": "gamer",
+          "user": "Noah",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5359/300/200",
@@ -7432,7 +7432,7 @@
       "comments": [
         {
           "id": 108001,
-          "user": "engineer",
+          "user": "Yara",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7440,7 +7440,7 @@
         },
         {
           "id": 108002,
-          "user": "gamer",
+          "user": "Finn",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -7448,7 +7448,7 @@
         },
         {
           "id": 108003,
-          "user": "student",
+          "user": "Uma",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5403/300/200",
@@ -7456,7 +7456,7 @@
         },
         {
           "id": 108004,
-          "user": "teacher",
+          "user": "Ella",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7464,7 +7464,7 @@
         },
         {
           "id": 108005,
-          "user": "traveler",
+          "user": "Liam",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -7472,7 +7472,7 @@
         },
         {
           "id": 108006,
-          "user": "traveler",
+          "user": "Tina",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -7496,7 +7496,7 @@
       "comments": [
         {
           "id": 109001,
-          "user": "nurse",
+          "user": "Hugo",
           "comment": "Numbers don't add up.",
           "vote": "fake",
           "imageUrl": null,
@@ -7504,7 +7504,7 @@
         },
         {
           "id": 109002,
-          "user": "local",
+          "user": "Jack",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7512,7 +7512,7 @@
         },
         {
           "id": 109003,
-          "user": "engineer",
+          "user": "Will",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7520,7 +7520,7 @@
         },
         {
           "id": 109004,
-          "user": "guest",
+          "user": "Sam",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7528,7 +7528,7 @@
         },
         {
           "id": 109005,
-          "user": "engineer",
+          "user": "Pia",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -7552,7 +7552,7 @@
       "comments": [
         {
           "id": 110001,
-          "user": "teacher",
+          "user": "Xena",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7560,7 +7560,7 @@
         },
         {
           "id": 110002,
-          "user": "artist",
+          "user": "Quin",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7568,7 +7568,7 @@
         },
         {
           "id": 110003,
-          "user": "guest",
+          "user": "Cara",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5503/300/200",
@@ -7576,7 +7576,7 @@
         },
         {
           "id": 110004,
-          "user": "student",
+          "user": "Alex",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -7600,7 +7600,7 @@
       "comments": [
         {
           "id": 111001,
-          "user": "guest",
+          "user": "Owen",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5551/300/200",
@@ -7608,7 +7608,7 @@
         },
         {
           "id": 111002,
-          "user": "reporter",
+          "user": "Quin",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7616,7 +7616,7 @@
         },
         {
           "id": 111003,
-          "user": "traveler",
+          "user": "Gina",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7624,7 +7624,7 @@
         },
         {
           "id": 111004,
-          "user": "guest",
+          "user": "Ivy",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7632,7 +7632,7 @@
         },
         {
           "id": 111005,
-          "user": "gamer",
+          "user": "Vera",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7640,7 +7640,7 @@
         },
         {
           "id": 111006,
-          "user": "traveler",
+          "user": "Xena",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -7648,7 +7648,7 @@
         },
         {
           "id": 111007,
-          "user": "teacher",
+          "user": "Sam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7656,7 +7656,7 @@
         },
         {
           "id": 111008,
-          "user": "artist",
+          "user": "Cara",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7664,7 +7664,7 @@
         },
         {
           "id": 111009,
-          "user": "teacher",
+          "user": "Dan",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5559/300/200",
@@ -7688,7 +7688,7 @@
       "comments": [
         {
           "id": 112001,
-          "user": "teacher",
+          "user": "Uma",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5601/300/200",
@@ -7696,7 +7696,7 @@
         },
         {
           "id": 112002,
-          "user": "traveler",
+          "user": "Jack",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7704,7 +7704,7 @@
         },
         {
           "id": 112003,
-          "user": "guest",
+          "user": "Ella",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -7712,7 +7712,7 @@
         },
         {
           "id": 112004,
-          "user": "guest",
+          "user": "Ben",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7736,7 +7736,7 @@
       "comments": [
         {
           "id": 113001,
-          "user": "gamer",
+          "user": "Noah",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7744,7 +7744,7 @@
         },
         {
           "id": 113002,
-          "user": "artist",
+          "user": "Alex",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7752,7 +7752,7 @@
         },
         {
           "id": 113003,
-          "user": "artist",
+          "user": "Pia",
           "comment": "Multiple outlets reported.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7760,7 +7760,7 @@
         },
         {
           "id": 113004,
-          "user": "artist",
+          "user": "Tina",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7768,7 +7768,7 @@
         },
         {
           "id": 113005,
-          "user": "traveler",
+          "user": "Hugo",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7776,7 +7776,7 @@
         },
         {
           "id": 113006,
-          "user": "local",
+          "user": "Finn",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7784,7 +7784,7 @@
         },
         {
           "id": 113007,
-          "user": "traveler",
+          "user": "Mia",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7808,7 +7808,7 @@
       "comments": [
         {
           "id": 114001,
-          "user": "gamer",
+          "user": "Zane",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7816,7 +7816,7 @@
         },
         {
           "id": 114002,
-          "user": "local",
+          "user": "Liam",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5702/300/200",
@@ -7824,7 +7824,7 @@
         },
         {
           "id": 114003,
-          "user": "student",
+          "user": "Rose",
           "comment": "I saw this myself.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7832,7 +7832,7 @@
         },
         {
           "id": 114004,
-          "user": "gamer",
+          "user": "Yara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7840,7 +7840,7 @@
         },
         {
           "id": 114005,
-          "user": "student",
+          "user": "Kara",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -7848,7 +7848,7 @@
         },
         {
           "id": 114006,
-          "user": "student",
+          "user": "Will",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7856,7 +7856,7 @@
         },
         {
           "id": 114007,
-          "user": "traveler",
+          "user": "Sam",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5707/300/200",
@@ -7880,7 +7880,7 @@
       "comments": [
         {
           "id": 115001,
-          "user": "student",
+          "user": "Liam",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7888,7 +7888,7 @@
         },
         {
           "id": 115002,
-          "user": "nurse",
+          "user": "Ella",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7896,7 +7896,7 @@
         },
         {
           "id": 115003,
-          "user": "teacher",
+          "user": "Gina",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -7904,7 +7904,7 @@
         },
         {
           "id": 115004,
-          "user": "artist",
+          "user": "Quin",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7912,7 +7912,7 @@
         },
         {
           "id": 115005,
-          "user": "reporter",
+          "user": "Yara",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5755/300/200",
@@ -7920,7 +7920,7 @@
         },
         {
           "id": 115006,
-          "user": "student",
+          "user": "Jack",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7928,7 +7928,7 @@
         },
         {
           "id": 115007,
-          "user": "student",
+          "user": "Mia",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -7952,7 +7952,7 @@
       "comments": [
         {
           "id": 116001,
-          "user": "engineer",
+          "user": "Will",
           "comment": "Image seems edited.",
           "vote": "fake",
           "imageUrl": null,
@@ -7960,7 +7960,7 @@
         },
         {
           "id": 116002,
-          "user": "teacher",
+          "user": "Owen",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7968,7 +7968,7 @@
         },
         {
           "id": 116003,
-          "user": "engineer",
+          "user": "Noah",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -7976,7 +7976,7 @@
         },
         {
           "id": 116004,
-          "user": "student",
+          "user": "Rose",
           "comment": "Text is out of context.",
           "vote": "fake",
           "imageUrl": null,
@@ -7984,7 +7984,7 @@
         },
         {
           "id": 116005,
-          "user": "student",
+          "user": "Dan",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -7992,7 +7992,7 @@
         },
         {
           "id": 116006,
-          "user": "guest",
+          "user": "Ben",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": null,
@@ -8000,7 +8000,7 @@
         },
         {
           "id": 116007,
-          "user": "artist",
+          "user": "Vera",
           "comment": "Supporting link provided.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5807/300/200",
@@ -8008,7 +8008,7 @@
         },
         {
           "id": 116008,
-          "user": "local",
+          "user": "Zane",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5808/300/200",
@@ -8016,7 +8016,7 @@
         },
         {
           "id": 116009,
-          "user": "nurse",
+          "user": "Ivy",
           "comment": "Old photo reused.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5809/300/200",
@@ -8040,7 +8040,7 @@
       "comments": [
         {
           "id": 117001,
-          "user": "guest",
+          "user": "Tina",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -8048,7 +8048,7 @@
         },
         {
           "id": 117002,
-          "user": "artist",
+          "user": "Kara",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5852/300/200",
@@ -8056,7 +8056,7 @@
         },
         {
           "id": 117003,
-          "user": "engineer",
+          "user": "Pia",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -8064,7 +8064,7 @@
         },
         {
           "id": 117004,
-          "user": "traveler",
+          "user": "Finn",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": null,
@@ -8072,7 +8072,7 @@
         },
         {
           "id": 117005,
-          "user": "gamer",
+          "user": "Alex",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -8080,7 +8080,7 @@
         },
         {
           "id": 117006,
-          "user": "reporter",
+          "user": "Xena",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -8088,7 +8088,7 @@
         },
         {
           "id": 117007,
-          "user": "guest",
+          "user": "Uma",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5857/300/200",
@@ -8096,7 +8096,7 @@
         },
         {
           "id": 117008,
-          "user": "nurse",
+          "user": "Hugo",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -8104,7 +8104,7 @@
         },
         {
           "id": 117009,
-          "user": "local",
+          "user": "Cara",
           "comment": "No source provided.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/5859/300/200",
@@ -8128,7 +8128,7 @@
       "comments": [
         {
           "id": 118001,
-          "user": "traveler",
+          "user": "Xena",
           "comment": "Photo matches CCTV.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5901/300/200",
@@ -8136,7 +8136,7 @@
         },
         {
           "id": 118002,
-          "user": "traveler",
+          "user": "Cara",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -8144,7 +8144,7 @@
         },
         {
           "id": 118003,
-          "user": "guest",
+          "user": "Noah",
           "comment": "Rumor from forwarded message.",
           "vote": "fake",
           "imageUrl": null,
@@ -8152,7 +8152,7 @@
         },
         {
           "id": 118004,
-          "user": "engineer",
+          "user": "Ivy",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -8176,7 +8176,7 @@
       "comments": [
         {
           "id": 119001,
-          "user": "teacher",
+          "user": "Liam",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5951/300/200",
@@ -8184,7 +8184,7 @@
         },
         {
           "id": 119002,
-          "user": "local",
+          "user": "Pia",
           "comment": "Official statement attached.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5952/300/200",
@@ -8192,7 +8192,7 @@
         },
         {
           "id": 119003,
-          "user": "engineer",
+          "user": "Finn",
           "comment": "Timestamp verified.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5953/300/200",
@@ -8200,7 +8200,7 @@
         },
         {
           "id": 119004,
-          "user": "engineer",
+          "user": "Quin",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/5954/300/200",
@@ -8208,7 +8208,7 @@
         },
         {
           "id": 119005,
-          "user": "student",
+          "user": "Zane",
           "comment": "Confirmed by local authority.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -8232,7 +8232,7 @@
       "comments": [
         {
           "id": 120001,
-          "user": "nurse",
+          "user": "Sam",
           "comment": "Clickbait headline.",
           "vote": "fake",
           "imageUrl": null,
@@ -8240,7 +8240,7 @@
         },
         {
           "id": 120002,
-          "user": "teacher",
+          "user": "Tina",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": null,
@@ -8248,7 +8248,7 @@
         },
         {
           "id": 120003,
-          "user": "student",
+          "user": "Alex",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": null,
@@ -8256,7 +8256,7 @@
         },
         {
           "id": 120004,
-          "user": "engineer",
+          "user": "Dan",
           "comment": "Witness corroboration.",
           "vote": "not-fake",
           "imageUrl": "https://picsum.photos/seed/6004/300/200",
@@ -8264,7 +8264,7 @@
         },
         {
           "id": 120005,
-          "user": "teacher",
+          "user": "Uma",
           "comment": "Looks manipulated / misleading.",
           "vote": "fake",
           "imageUrl": "https://picsum.photos/seed/6005/300/200",
