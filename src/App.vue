@@ -3,7 +3,7 @@
 import { ref, watch } from 'vue'
 import { RouterLink, RouterView, useRoute } from 'vue-router'
 // App.vue (script setup)
-import logoUrl from '@/assets/image/logo.png'
+import logoUrl from '@/assets/image/logo.PNG'
 import BaseToast from '@/components/BaseToast.vue'
 
 
