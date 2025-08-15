@@ -4,7 +4,7 @@ import { ref, watch } from 'vue'
 import { RouterLink, RouterView, useRoute } from 'vue-router'
 import logoUrl from '@/assets/image/logo.png'
 import BaseToast from '@/components/BaseToast.vue'
-import GlobalLoading from '@/components/GlobalLoading.vue'
+
 
 const route = useRoute()
 const mobileOpen = ref(false)
@@ -32,11 +32,28 @@ watch(() => route.fullPath, () => {
           <span class="text-lg font-bold">ABC News</span>
         </RouterLink>
 
-        <!-- Desktop Menu -->
-        <ul class="hidden md:flex items-center gap-4">
-          <li><RouterLink :to="{ name: 'news-list-view' }" :class="navClass('news-list-view')">Home</RouterLink></li>
-          <li><RouterLink :to="{ name: 'about' }" :class="navClass('about')">About</RouterLink></li>
-        </ul>
+        <!-- Desktop Menu <ul class="hidden flex items-center gap-4"></ul> -->
+        <ul class="hidden md:flex items-center gap-2">
+            <li>
+              <RouterLink
+                :to="{ name: 'news-list-view' }"
+                class="px-3 py-1.5 rounded-lg text-sm font-medium transition"
+                :class="navClass('news-list-view')"
+              >
+                Home
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink
+                :to="{ name: 'about' }"
+                class="px-3 py-1.5 rounded-lg text-sm font-medium transition"
+                :class="navClass('about')"
+              >
+                About
+              </RouterLink>
+            </li>
+          </ul>
+          
 
         <!-- Mobile Hamburger -->
         <button class="md:hidden p-2 rounded-lg hover:bg-white/10" @click="mobileOpen = !mobileOpen">
@@ -75,8 +92,6 @@ watch(() => route.fullPath, () => {
     <!-- Toast -->
     <BaseToast />
 
-    <!-- Loading Overlay -->
-    <GlobalLoading />
 
     <!-- Footer -->
     <footer class="bg-gray-200 text-gray-600 p-4 text-center">
